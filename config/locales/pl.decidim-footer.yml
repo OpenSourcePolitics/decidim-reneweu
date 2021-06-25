@@ -1,0 +1,80 @@
+---
+pl:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Informacje o stronie
+          cookies: Pliki cookie
+          language_policy: Polityka językowa
+          legal_notice: Informacja prawna
+          sitemap: Mapa strony
+      contact_the_eu:
+        items:
+          call_us: Zadzwoń do nas pod numer <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Napisz do nas, <a href="https://europa.eu/european-union/contact/write-to-us_pl">korzystając z formularza</a>
+          meet_us: Spotkaj się z nami <a href="https://europa.eu/european-union/contact/meet-us_pl">w lokalnym biurze UE</a>
+          other_telephone: Skorzystaj z innych form <a href="https://europa.eu/european-union/contact/call-us_pl">kontaktu telefonicznego</a>
+        title: Kontakt
+      eu_institution:
+        items:
+          agencies:
+            label: Agencje
+            url: https://europa.eu/european-union/about-eu/agencies_pl
+          central_bank:
+            label: Europejski Bank Centralny (EBC)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.pl.html
+          commission:
+            label: Komisja Europejska
+            url: http://ec.europa.eu/index_pl.htm
+          council:
+            label: Rada Europejska
+            url: http://www.consilium.europa.eu/pl/european-council/
+          council_eu:
+            label: Rada Unii Europejskiej
+            url: http://www.consilium.europa.eu/pl/home/
+          court_of_auditors:
+            label: Europejski Trybunał Obrachunkowy
+            url: http://www.eca.europa.eu/pl
+          court_of_justice:
+            label: Trybunał Sprawiedliwości Unii Europejskiej
+            url: http://curia.europa.eu/jcms/jcms/j_6/pl/
+          data_protection_supervisor:
+            label: Europejski Inspektor Ochrony Danych (EIOD)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=pl
+          dpb:
+            label: Europejska Rada Ochrony Danych
+            url: https://edpb.europa.eu/edpb_nl
+          economic_social_committee:
+            label: Europejski Komitet Ekonomiczno-Społeczny (EKES)
+            url: http://www.eesc.europa.eu/?i=portal.pl.home
+          eu_regional_comittee:
+            label: Europejski Komitet Regionów (KR)
+            url: http://cor.europa.eu/pl/
+          external_action_service:
+            label: Europejska Służba Działań Zewnętrznych (ESDZ)
+            url: http://eeas.europa.eu/index_pl.htm
+          investment_bank:
+            label: Europejski Bank Inwestycyjny (EBI)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Europejski Rzecznik Praw Obywatelskich
+            url: https://www.ombudsman.europa.eu/pl/home
+          parliament:
+            label: Parlament Europejski
+            url: http://www.europarl.europa.eu/portal/pl
+          pou:
+            label: Urząd Publikacji Unii Europejskiej
+            url: https://op.europa.eu/pl/home
+          pso:
+            label: Europejski Urząd Doboru Kadr
+            url: https://epso.europa.eu/home_pl
+        title: Instytucje UE
+      social_media:
+        items:
+          search_channels:
+            label: UE w mediach społecznościowych
+            url: https://europa.eu/european-union/contact/social-networks_pl
+        title: Znajdź UE w serwisach społecznościowych
+    footer_menu:
+      organization: Konferencja w sprawie przyszłości Europy

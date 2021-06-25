@@ -1,0 +1,80 @@
+---
+hu:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: A honlapról
+          cookies: Cookie-k
+          language_policy: Nyelvpolitika
+          legal_notice: Jogi nyilatkozat
+          sitemap: Honlaptérkép
+      contact_the_eu:
+        items:
+          call_us: Hívjon minket! Telefonszámunk <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Írjon nekünk <a href="https://europa.eu/european-union/contact/write-to-us_hu">kapcsolatfelvételi űrlapunk</a> kitöltésével!
+          meet_us: Jöjjön el személyesen <a href="https://europa.eu/european-union/contact/meet-us_hu">helyi irodáink</a> valamelyikébe!
+          other_telephone: Válasszon a többi telefonos <a href="https://europa.eu/european-union/contact/call-us_hu">kapcsolatfelvételi lehetőség közül!</a>
+        title: Kapcsolatfelvétel
+      eu_institution:
+        items:
+          agencies:
+            label: Ügynökségek
+            url: https://europa.eu/european-union/about-eu/agencies_hu
+          central_bank:
+            label: Európai Központi Bank (EKB)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.hu.html
+          commission:
+            label: Európai Bizottság
+            url: https://ec.europa.eu/commission/index_hu
+          council:
+            label: Európai Tanács
+            url: http://www.consilium.europa.eu/hu/european-council/
+          council_eu:
+            label: Az Európai Unió Tanácsa
+            url: http://www.consilium.europa.eu/hu/home/
+          court_of_auditors:
+            label: Európai Számvevőszék
+            url: http://www.eca.europa.eu/hu
+          court_of_justice:
+            label: Az Európai Unió Bírósága (EUB)
+            url: http://curia.europa.eu/jcms/jcms/j_6/hu/
+          data_protection_supervisor:
+            label: Európai adatvédelmi biztos
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=hu
+          dpb:
+            label: Az Európai Adatvédelmi Testület
+            url: https://edpb.europa.eu/edpb_hu
+          economic_social_committee:
+            label: Európai Gazdasági és Szociális Bizottság
+            url: http://www.eesc.europa.eu/?i=portal.hu.home
+          eu_regional_comittee:
+            label: Régiók Európai Bizottsága
+            url: http://cor.europa.eu/hu/
+          external_action_service:
+            label: Európai Külügyi Szolgálat (EKSZ)
+            url: http://eeas.europa.eu/index_hu.htm
+          investment_bank:
+            label: Európai Beruházási Bank (EBB)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Európai ombudsman
+            url: https://www.ombudsman.europa.eu/hu/home
+          parliament:
+            label: European Parliament
+            url: http://www.europarl.europa.eu/portal/hu
+          pou:
+            label: Az Európai Unió Kiadóhivatala
+            url: https://op.europa.eu/hu/home
+          pso:
+            label: Európai Személyzeti Felvételi Hivatal
+            url: https://epso.europa.eu/home_hu
+        title: EU intézményei
+      social_media:
+        items:
+          search_channels:
+            label: Kövesse az EU közösségi oldalait
+            url: https://europa.eu/european-union/contact/social-networks_hu
+        title: Az EU intézményei, szervei és ügynökségei a közösségi oldalakon
+    footer_menu:
+      organization: Konferencia Európa jövőjéről

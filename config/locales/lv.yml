@@ -1,0 +1,180 @@
+---
+lv:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Idejas
+      constraint:
+        subject_id: Tēma
+      meeting:
+        cofe_charter_html: Es piekrītu konferences par Eiropas nākotni <a href="%{url}" target="_blank">hartai</a>.
+        online_meeting_url: Tiešsaistes sanāksmes URL
+        registration_url: Reģistrācijas URL
+      user:
+        eu_login_department_number: Struktūrvienība
+        eu_login_organisation: Organizācija
+        language_preference: Valodas izvēle
+        user_name: Lietotājvārds
+  date:
+    abbr_month_names:
+    - 
+    - Janv.
+    - Febr.
+    - Marts
+    - Apr.
+    - Maijs
+    - Jūn.
+    - Jūl.
+    - Aug.
+    - Sept.
+    - Okt.
+    - Nov.
+    - Dec.
+    formats:
+      decidim_short: "%d/%m/%Y"
+      decidim_short_with_month_name_short: "%d %b %Y"
+      decidim_with_day_and_month_name: "%A %d %b %Y"
+      decidim_with_month_name: "%d %B %Y"
+    month_names:
+    - 
+    - Janvāris
+    - Februāris
+    - Marts
+    - Aprīlis
+    - Maijs
+    - Jūnijs
+    - Jūlijs
+    - Augusts
+    - Septembris
+    - Oktobris
+    - Novembris
+    - Decembris
+  decidim:
+    account:
+      show:
+        available_locales_helper: Valoda, kurā saņemsiet e-pasta paziņojumus.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Pārsniegta kvota
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: Konferences par Eiropas Nākotni hartas URL
+    events:
+      reports:
+        resource_hidden: Moderēšana
+    forms:
+      language:
+        language_help_text: Atlasot konkrētu rakstīšanas valodu, palīdziet mums nodrošināt, ka jūsu atbildes var pārtulkot un visi lietotāji tās var izlasīt.
+        language_selector: 'Valoda, kurā sniedzat ieguldījumu:'
+      meetings:
+        attendees_count_help_text: Neaizmirstiet norādīt sava pasākuma dalībnieku kopskaitu! Mums ir svarīgi zināt, cik cilvēku iesaistījušies (nav svarīgi, vai tikšanās notiek klātienē, tiešsaistē vai abējādi).
+    meetings:
+      admin:
+        meetings:
+          edit:
+            title: Rediģēt pasākumu
+          form:
+            select_a_meeting_type: Izvēlieties pasākuma veidu
+      directory:
+        meetings:
+          index:
+            subheading1: Padariet savu balsi sadzirdamu un dalieties ar savām idejām tiešsaistes un klātienes pasākumos, kas notiek netālu no jums.
+      extra:
+        filters:
+          all: Visi
+          closed: Pasākumi, par kuriem ir ziņojums
+          pending: Pasākumi, par kuriem vēl nav ziņojuma
+      last_activity:
+        meeting_updated_at_html: "<span>Atjauninātas ziņas par pasākumu %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Aizvērt notikumu
+          title: Aizvērt notikumu
+      meetings:
+        filters:
+          activity: Mana aktivitāte
+          all: Visi
+          my_meetings: Mani pasākumi
+          type: Pasākumu veidi
+          type_values:
+            all: Visi
+            hybrid: Abi
+            in_person: Klātienē
+            online: Tiešsaistē
+        form:
+          select_a_meeting_type: Izvēlieties sanāksmes veidu!
+          select_a_registration_type: Izvēlieties reģistrācijas veidu!
+        show:
+          close_meeting: Aizvērt notikumu
+          with_meeting_report: Pieejams ziņojums par pasākumu
+      registration_type:
+        on_different_platform: Citā platformā
+        registration_disabled: Reģistrācija ir atspējota.
+      type_of_meeting:
+        hybrid: Abi
+        in_person: Klātienē
+        online: Tiešsaistē
+    proposals:
+      proposals:
+        edit:
+          gallery_legend: "(Nav obligāti) Pievienojiet idejai attēlu"
+        index:
+          heading: Dalieties ar savām idejām
+          subheading1: Jūs varat ne tikai dalīties ar savām idejām, bet arī atrast citas idejas no visas Eiropas. Pievienojieties diskusijai, atstājot komentāru, vai balsojiet par idejām, kas jums patīk, lai vairāk cilvēku varētu tās atrast.
+        preview:
+          announcement_body: Jums ir iespēja pārskatīt un labot savu ideju. Kad ideja ir gatava, noklikšķiniet uz „Publicēt”, un tā parādīsies platformā.
+          announcement_title: "<b>Pirms idejas publicēšanas ir jāpabeidz vēl viens posms.</b>"
+    statistics:
+      answers_count: Atbildes
+      attendees_count: Pasākuma dalībnieki
+      comments_count: Komentāri
+      debates_count: Debates
+      endorsements_count: Apstiprinājumi
+      followers_count: sekotāji
+      headline: Statistika
+      meetings_count: Pasākumi
+      no_stats: Pagaidām nav statistikas datu.
+      orders_count: Atbalsti
+      pages_count: Lapas
+      participants_count: Dalībnieki
+      processes_count: Temati
+      projects_count: Projekti
+      proposals_count: idejas
+      results_count: Rezultāti
+      supports_count: Atbalsti
+      surveys_count: Aptaujas
+      users_count: Dalībnieki
+  errors:
+    messages:
+      not_a_date: nav datums
+  forms:
+    length_validator:
+      minimum:
+        one: vismaz %{count} rakstzīmes
+        other: Lūdzu, ievadiet vismaz %{count} rakstzīmju
+  layouts:
+    decidim:
+      language_chooser:
+        close: Aizvērt
+        eu_languages: ES oficiālās valodas
+        select_your_language: Izvēlieties valodu
+      user:
+        logged_in: Pieteicies
+        logged_in_as: Pieteicies kā %{user}
+  time:
+    formats:
+      day_of_year: "%d.%m.%y"
+      decidim_day_of_year: "%d %B %Y"
+      decidim_short: "%d/%m/%Y %H:%M"
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      devise:
+        mailer:
+          invitation_instructions:
+            accept_until_format: "%B %d, %Y %I:%M %p"
+      long: "%B %d, %Y %H:%M"
+      long_dashed: "%Y-%m-%d %H:%M:%S"
+      short: "%d/%m/%Y %H:%M"
+      time_of_day: "%H:%M"

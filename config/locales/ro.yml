@@ -1,0 +1,202 @@
+---
+ro:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Idei
+      constraint:
+        subject_id: Subiect
+      meeting:
+        cofe_charter_html: Sunt de acord cu <a href="%{url}" target="_blank">Carta </a> Conferinței privind viitorul Europei
+        online_meeting_url: Adresa URL a reuniunii online
+        registration_url: URL al înregistrării
+      user:
+        language_preference: Preferințe lingvistice
+        user_name: Nume de utilizator
+  date:
+    abbr_month_names:
+    - 
+    - Ian
+    - Feb
+    - Mar
+    - Apr
+    - Mai
+    - Iun
+    - Iul
+    - Aug
+    - Sep
+    - Oct
+    - Noi
+    - Dec
+    month_names:
+    - 
+    - Ianuarie
+    - Februarie
+    - Martie
+    - Aprilie
+    - Mai
+    - Iunie
+    - Iulie
+    - August
+    - Septembrie
+    - Octombrie
+    - Noiembrie
+    - Decembrie
+  decidim:
+    account:
+      show:
+        available_locales_helper: Limba în care veți primi notificări prin e-mail.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Cotă depășită
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL al cartei CoFE
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Un moderator a eliminat %{resource_type}dumneavoastră deoarece a fost raportată ca %{report_reasons}.</br><i>%{resource_content}</i></br>Consultați explicația de mai jos:'
+    forms:
+      language:
+        language_help_text: Ajutați-ne să ne asigurăm că contribuția dumneavoastră poate fi tradusă, astfel încât toți utilizatorii să o poată citi, selectând limba în care ați scris.
+        language_selector: 'Limba în care este redactată contribuția dvs:'
+      meetings:
+        attendees_count_help_text: Nu uitați să includeți numărul total de participanți la evenimentul dumneavoastră. Fie în persoană, fie în format hibrid sau online, este important să știm câte persoane sunt implicate.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Alegeți spațiul de participare care vă interesează cu posibilitatea de a trimite idei activată
+            '1': Încercați să trimiteți idei care pot fi realizate. Astfel, este mai probabil ca ele să fie acceptate.
+        attended_meetings:
+          conditions:
+            '0': Înscrieți-vă la evenimentele la care doriți să participați
+        proposal_votes:
+          conditions:
+            '0': Căutați și petreceți ceva timp citind ideile altora
+            '1': Oferiți-vă sprijinul pentru ideile care vă plac sau pe care le considerați interesante
+        proposals:
+          conditions:
+            '0': Alegeți spațiul de participare care vă interesează cu posibilitatea de a trimite idei activată
+            '1': Creați o nouă idee
+    meetings:
+      actions:
+        hide: Ascundere
+        unhide: Afișare
+      admin:
+        meetings:
+          edit:
+            title: Editare eveniment
+          form:
+            select_a_meeting_type: Rugăm selectați un tip de eveniment
+      directory:
+        meetings:
+          index:
+            subheading1: Faceți-vă vocea auzită și impărtășiti-vă ideile la evenimentele online și în persoană care au loc în apropierea dumneavoastră.
+      extra:
+        filters:
+          all: Toate
+          closed: Evenimente cu un raport
+          pending: Evenimente pentru care se așteaptă raportul
+      last_activity:
+        meeting_updated_at_html: "<span>Eveniment actualizat la %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Închidere eveniment
+          title: Închidere eveniment
+      meetings:
+        filters:
+          activity: Activitățile mele
+          all: Toate
+          my_meetings: Evenimentele mele
+          type: Tipuri de evenimente
+          type_values:
+            all: Toate
+            hybrid: Ambele
+        form:
+          select_a_meeting_type: Vă rugăm să selectați un tip de reuniune
+          select_a_registration_type: Vă rugăm să selectați un tip de înregistrare
+        online_meeting_link:
+          online_event: Accesați site-ul internet al evenimentului
+        show:
+          close_meeting: Închidere eveniment
+          with_meeting_report: Raportul pentru eveniment este disponibil
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Eveniment cetățenesc
+            group_meeting: Eveniment de grup
+      registration_type:
+        on_different_platform: Pe o platformă diferită
+        registration_disabled: Înregistrare dezactivată
+      type_of_meeting:
+        hybrid: Ambele
+        in_person: În persoană
+        online: Online
+    pages:
+      tabbed:
+        unfold: Derulare
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Afișați tot
+        see_all_count: "(vizualizați tot %{count})"
+      highlighted_proposals:
+        see_all_button: Afișați tot
+        see_all_count: "(vizualizați tot %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Idei
+      proposals:
+        edit:
+          gallery_legend: "(Opțional) Adăugați o imagine pe cardul ideii"
+        index:
+          heading: Prezentați ideile dumneavoastră și citiți și alte idei din întreaga Europă. Alăturați-vă discuției lăsând un comentariu sau votați idei pe care le agreați, astfel încât mai multe persoane să le poată găsi.
+          subheading1: Pe lângă impărtășirea propriilor idei, puteți găsi și alte idei din întreaga Europă. Alăturați-vă discuției lăsând un comentariu sau votați idei pe care le agreați, astfel încât mai multe persoane să le poată găsi.
+        preview:
+          announcement_body: Aveți posibilitatea de a vă revizui și modifica ideea. După ce ideea dumneavoastră este pregătită, faceți clic pe „Publicare”, iar aceasta va apărea pe platformă.
+          announcement_title: "<b>Mai aveți de parcurs un pas înainte de a vă publica ideea.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Promovează activități ilegale, amenințări de suicid, informații cu caracter personal sau altceva despre credeți că nu aparține aici.
+        offensive: Promovează rasismul, sexismul, insultele, atacurile personale, amenințările cu moartea, cererile de suicid sau orice formă de discurs de incitare la ură.
+        spam: Promovează clickbait, publicitate, înșelăciuni sau scriptbots.
+    statistics:
+      answers_count: Răspunsuri
+      attendees_count: Participanții la eveniment
+      comments_count: Comentarii
+      debates_count: Dezbateri
+      endorsements_count: Avizări
+      followers_count: Persoane care urmăresc
+      headline: Ce se întâmplă pe acest subiect?
+      meetings_count: Evenimente
+      no_stats: Nu există încă statistici.
+      orders_count: Suporturi
+      pages_count: Pagini
+      participants_count: Participanți
+      processes_count: Subiecte
+      projects_count: Proiecte
+      proposals_count: Idei
+      results_count: Rezultate
+      supports_count: Suporturi
+      surveys_count: Sondaje
+      users_count: Participanți
+    verifications:
+      dummy_authorization:
+        extra_explanation:
+          postal_codes:
+            few: 'Participarea este restricționată la participanții cu oricare dintre următoarele coduri poștale: %{postal_codes}.'
+  layouts:
+    decidim:
+      language_chooser:
+        close: Închidere
+        eu_languages: Limbi oficiale în UE
+        select_your_language: Selectați limba
+      user:
+        logged_in: Conectat
+        logged_in_as: Conectat ca %{user}
+      wrapper:
+        unfold: Derulare

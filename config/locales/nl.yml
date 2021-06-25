@@ -1,0 +1,202 @@
+---
+nl:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Ideeën
+      constraint:
+        subject_id: Onderwerp
+      meeting:
+        cofe_charter_html: Ik ga akkoord met het <a href="%{url}" target="_blank">handvest</a> van de conferentie over de toekomst van Europa
+        online_meeting_url: URL van de onlinevergadering
+        registration_url: URL om te registreren
+      user:
+        eu_login_department_number: Afdeling
+        eu_login_organisation: Organisatie
+        language_preference: Voorkeurstaal
+        user_name: Gebruikersnaam
+  date:
+    abbr_month_names:
+    - 
+    - jan.
+    - feb.
+    - mrt
+    - apr.
+    - mei
+    - juni
+    - juli
+    - aug.
+    - sept.
+    - okt.
+    - nov.
+    - dec.
+    month_names:
+    - 
+    - januari
+    - februari
+    - maart
+    - april
+    - mei
+    - juni
+    - juli
+    - augustus
+    - september
+    - oktober
+    - november
+    - dec
+  decidim:
+    account:
+      show:
+        available_locales_helper: De taal waarin u e-mailmeldingen wilt ontvangen.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Quotum overschreden
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: Url van het handvest van de conferentie over de toekomst van Europa
+    demographics:
+      directory:
+        demographics:
+          form:
+            living_conditions:
+              large: Grote stad
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Een moderator heeft uw %{resource_type} verwijderd omdat het gemeld is als %{report_reasons}.</br><i>%{resource_content}</i></br>Zie de uitleg hieronder:'
+    forms:
+      language:
+        language_help_text: We willen ervoor zorgen dat uw bijdrage kan worden vertaald zodat alle gebruikers deze kunnen lezen. U kunt ons daarbij helpen door de taal te kiezen waarin u heeft geschreven.
+        language_selector: 'Taal van uw bijdrage:'
+      meetings:
+        attendees_count_help_text: 'Vermeld het totale aantal deelnemers aan uw evenement. Tel alle deelnemers mee: ter plaatse, online of op andere manieren. Het is belangrijk dat we weten hoeveel mensen erbij betrokken waren.'
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Kies het debat dat u interesseert; u kunt ideeën indienen
+            '1': Probeer ideeën in te dienen die kunnen worden uitgevoerd. Deze zullen eerder worden geaccepteerd.
+        attended_meetings:
+          conditions:
+            '0': Registreren voor de evenementen die u wilt bijwonen
+        proposal_votes:
+          conditions:
+            '0': Ideeën van anderen lezen
+            '1': Ideeën aanbevelen die u leuk of interessant vindt
+        proposals:
+          conditions:
+            '0': Kies het debat dat u interesseert; u kunt ideeën indienen
+            '1': Een nieuw idee aanmaken
+    meetings:
+      actions:
+        hide: Verbergen
+        unhide: Weergeven
+      admin:
+        meetings:
+          edit:
+            title: Evenement bewerken
+          form:
+            select_a_meeting_type: Kies een soort evenement
+      directory:
+        meetings:
+          index:
+            subheading1: Laat uw stem horen en deel uw ideeën tijdens online en fysieke evenementen bij u in de buurt
+      extra:
+        filters:
+          all: Alle
+          closed: Gemelde evenementen
+          pending: Gemelde evenementen (in behandeling)
+      last_activity:
+        meeting_updated_at_html: "<span>Evenement bijgewerkt: %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Evenement sluiten
+          title: Evenement sluiten
+      meetings:
+        filters:
+          activity: Mijn activiteit
+          all: Alle
+          my_meetings: Mijn evenementen
+          type: Soorten evenementen
+        form:
+          select_a_meeting_type: Kies een soort evenement
+          select_a_registration_type: Kies een soort registratie
+        online_meeting_link:
+          online_event: Ga naar de website van het evenement
+        show:
+          close_meeting: Evenement sluiten
+          with_meeting_report: Gemelde evenementen (afgehandeld)
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Evenement voor burgers
+            group_meeting: Groepsevenement
+      registration_type:
+        on_different_platform: Op een ander platform
+        registration_disabled: Registratie onmogelijk
+      type_of_meeting:
+        hybrid: Beide
+        in_person: Fysiek
+        online: Online
+    pages:
+      tabbed:
+        unfold: Uitvouwen
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Alles weergeven
+        see_all_count: "(alle %{count}bekijken)"
+      highlighted_proposals:
+        see_all_button: Alles weergeven
+        see_all_count: "(alle %{count}bekijken)"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Ideeën
+      proposals:
+        edit:
+          gallery_legend: "(facultatief) Een afbeelding toevoegen aan het idee"
+        index:
+          heading: Deel een idee met ons
+          subheading1: U kunt hier niet alleen uw ideeën delen, maar ook andere ideeën uit heel Europa vinden. Doe mee aan de discussie door een opmerking te maken of door te stemmen voor ideeën zodat meer mensen ze kunnen vinden.
+        preview:
+          announcement_body: U kunt uw tekst controleren en bewerken. Wanneer uw idee klaar is, klik dan op ‘Publiceren’ om het op het platform te publiceren.
+          announcement_title: "<b>U moet nog één stap afronden voordat u uw idee kunt publiceren.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Stimuleert illegale activiteiten, dreiging met zelfmoord, persoonlijke informatie of iets anders dat hier volgens u niet thuishoort.
+        offensive: Stimuleert racisme, seksisme, laster, persoonlijke aanvallen, doodsbedreigingen, zelfmoordwensen of een vorm van haatzaaiende uitspraken.
+        spam: Stimuleert clickbait, reclame, oplichting of scriptbots.
+    statistics:
+      answers_count: Antwoorden
+      attendees_count: deelnemers evenement
+      comments_count: opmerkingen
+      debates_count: Debatten
+      endorsements_count: steunbetuigingen
+      followers_count: volgers
+      headline: Wat gebeurt er binnen dit thema?
+      meetings_count: evenementen
+      no_stats: Er zijn nog geen statistieken.
+      orders_count: Steunbetuigingen
+      pages_count: Pagina‘s
+      participants_count: Deelnemers
+      processes_count: Thema's
+      projects_count: Projecten
+      proposals_count: ideeën
+      results_count: Resultaten
+      supports_count: Steunbetuigingen
+      surveys_count: Enquêtes
+      users_count: deelnemers
+  layouts:
+    decidim:
+      language_chooser:
+        close: Sluiten
+        eu_languages: Officiële talen van de EU
+        select_your_language: Kies uw taal
+      user:
+        logged_in: Aangemeld
+        logged_in_as: Aangemeld als %{user}
+      wrapper:
+        unfold: Uitvouwen

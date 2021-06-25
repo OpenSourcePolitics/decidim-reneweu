@@ -1,0 +1,202 @@
+---
+pl:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Pomysły
+      constraint:
+        subject_id: Temat
+      meeting:
+        cofe_charter_html: Wyrażam zgodę na<a href="%{url}" target="_blank"> kartę</a> konferencji w sprawie przyszłości Europy
+        online_meeting_url: Adres URL spotkania online
+        registration_url: Adres URL umożliwiający rejestrację
+      user:
+        language_preference: Preferencje językowe
+        user_name: Nazwa użytkownika
+  date:
+    abbr_month_names:
+    - 
+    - Sty
+    - Lut
+    - Mar
+    - Kwi
+    - Maj
+    - Cze
+    - Lip
+    - Sie
+    - Wrz
+    - Paź
+    - Lis
+    - Gru
+    month_names:
+    - 
+    - Styczeń
+    - Luty
+    - Marzec
+    - Kwiecień
+    - Maj
+    - Czerwiec
+    - Lipiec
+    - Sierpień
+    - Wrzesień
+    - Październik
+    - Listopad
+    - Grudzień
+  decidim:
+    account:
+      show:
+        available_locales_helper: Język, w którym będziesz otrzymywać powiadomienia e-mail.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Przekroczono limit
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL karty CoFE
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Moderator usunął Twój / Twoją / Twoje %{resource_type}, ponieważ uznano, że %{report_reasons}.</br><i>%{resource_content}</i></br>. Zobacz wyjaśnienie poniżej:'
+    forms:
+      language:
+        language_help_text: Prosimy upewnić się, że wybrali Państwo język odpowiedzi. Dzięki temu zostanie ona przetłumaczona, aby wszyscy użytkownicy mogli ją przeczytać.
+        language_selector: 'Język, w którym udzielam odpowiedzi:'
+      meetings:
+        attendees_count_help_text: Pamiętaj o podaniu całkowitej liczby uczestników wydarzenia. Ważne jest, byśmy wiedzieli, ile osób jest zaangażowanych, bez względu na to, czy osobiście, w formie hybrydowej, czy też on-line.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Wybierz interesującą Cię przestrzeń partycypacyjną z aktywowaną możliwością zgłaszania pomysłów
+            '1': Zgłaszaj pomysły, które mogą zostać zrealizowane. Dzięki temu ich przyjęcie będzie bardziej prawdopodobne.
+        attended_meetings:
+          conditions:
+            '0': Zarejestruj się, aby wziąć udział w interesujących Cię wydarzeniach
+        proposal_votes:
+          conditions:
+            '0': Przeglądaj pomysły innych osób i poczytaj o nich
+            '1': Popieraj pomysły, które Ci się podobają lub wydają Ci się interesujące.
+        proposals:
+          conditions:
+            '0': Wybierz interesującą Cię przestrzeń partycypacyjną z aktywowaną możliwością zgłaszania pomysłów
+            '1': Utwórz nowy pomysł
+    meetings:
+      actions:
+        hide: Ukryj
+        unhide: Pokaż
+      admin:
+        meetings:
+          edit:
+            title: Edytuj wydarzenie
+          form:
+            select_a_meeting_type: Proszę wybrać rodzaj wydarzenia
+      directory:
+        meetings:
+          index:
+            subheading1: Zabierz głos i podziel się swoimi pomysłami w odniesieniu do wydarzeń online i bezpośrednich, które mają miejsce w pobliżu.
+      extra:
+        filters:
+          all: Wszystkie
+          closed: Wydarzenia, którym towarzyszy sprawozdanie
+          pending: Wydarzenia, dla których raport jest sporządzany
+      last_activity:
+        meeting_updated_at_html: "<span>Wydarzenie zaktualizowano pod linkiem %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Zamknij wydarzenie
+          title: Zamknij wydarzenie
+      meetings:
+        filters:
+          activity: Moja aktywność
+          all: Wszystko
+          my_meetings: Moje wydarzenia
+          type: Rodzaje wydarzenia
+          type_values:
+            hybrid: Osobiście i online
+        form:
+          select_a_meeting_type: Proszę wybrać rodzaj spotkania
+          select_a_registration_type: Proszę wybrać rodzaj rejestracji
+        online_meeting_link:
+          online_event: Przejdź na stronę internetową wydarzenia
+        show:
+          close_meeting: Zamknij wydarzenie
+          with_meeting_report: Sprawozdanie z wydarzenia jest dostępne
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Wydarzenie obywatelskie
+            group_meeting: Wydarzenie grupowe
+      registration_type:
+        on_different_platform: Na innej platformie
+        registration_disabled: Rejestracja została wyłączona
+      type_of_meeting:
+        hybrid: Oba rodzaje
+        in_person: Bezpośrednie
+        online: Online
+    pages:
+      tabbed:
+        unfold: Rozwiń
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Zobacz wszystko
+        see_all_count: "(zobacz wszystko %{count})"
+      highlighted_proposals:
+        see_all_button: Zobacz wszystko
+        see_all_count: "(zobacz wszystko %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Pomysły
+      proposals:
+        edit:
+          gallery_legend: "(Opcjonalne) Dodaj obraz do pomysłu"
+        index:
+          heading: Podziel się z nami pomysłem
+          subheading1: Oprócz dzielenia się własnymi pomysłami możesz również znaleźć inne pomysły z całej Europy. Dołącz do dyskusji, pozostawiając komentarz, lub zagłosuj na pomysły, które Ci się podobają, tak aby więcej osób mogło je znaleźć.
+        preview:
+          announcement_body: Jest to etap, w którym możesz przejrzeć swój pomysł i wprowadzić ewentualne zmiany. Gdy pomysł będzie gotowy, kliknij przycisk „Publikuj”, aby był on widoczny na platformie.
+          announcement_title: "<b>To już ostatni krok przed opublikowaniem pomysłu.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Wspieranie nielegalnej działalności, groźby samobójstwa, dane osobowe lub inne informacje, które są tu niestosowne.
+        offensive: Wspieranie rasizmu, seksizmu, obelgi, ataki osobiste, groźby karalne, wzywanie do samobójstwa lub inna forma mowy nienawiści.
+        spam: Wspieranie treści klikbajtowych, reklamy, oszustwa lub boty.
+    statistics:
+      answers_count: Odpowiedzi
+      attendees_count: Uczestnicy wydarzenia
+      comments_count: Komentarze
+      debates_count: Debaty
+      endorsements_count: Wyrazy poparcia
+      followers_count: Obserwujący
+      headline: Co dzieje się w tym temacie?
+      meetings_count: Wydarzenia
+      no_stats: Nie ma jeszcze żadnych statystyk.
+      orders_count: Głosy poparcia
+      pages_count: Strony
+      participants_count: Uczestnicy
+      processes_count: Tematy
+      projects_count: Projekty
+      proposals_count: Pomysły
+      results_count: Wyniki
+      supports_count: Głosy poparcia
+      surveys_count: Ankiety
+      users_count: Uczestnicy
+    verifications:
+      dummy_authorization:
+        extra_explanation:
+          postal_codes:
+            few: 'Udział zastrzeżony dla uczestników z jednym z następujących kodów pocztowych: %{postal_codes}.'
+            many: 'Udział zastrzeżony dla uczestników z jednym z następujących kodów pocztowych: %{postal_codes}.'
+  layouts:
+    decidim:
+      language_chooser:
+        close: Zamknij
+        eu_languages: Języki urzędowe UE
+        select_your_language: Wybierz swój język
+      user:
+        logged_in: Zalogowano
+        logged_in_as: Zalogowano jako %{user}
+      wrapper:
+        unfold: Rozwiń

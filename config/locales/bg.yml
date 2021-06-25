@@ -1,0 +1,198 @@
+---
+bg:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Идеи
+      constraint:
+        subject_id: Тема
+      meeting:
+        cofe_charter_html: Съгласен съм с <a href="%{url}" target="_blank">хартата</a> на Конференцията за бъдещето на Европа
+        online_meeting_url: Интернет линк за срещата
+        registration_url: Интернет линк за регистрация
+      user:
+        language_preference: Езикови предпочитания
+        user_name: Потребителско име
+  date:
+    abbr_month_names:
+    - 
+    - Ян
+    - Фев
+    - Март
+    - Апр
+    - Май
+    - Юни
+    - Юли
+    - Авг
+    - Сеп
+    - Окт
+    - Ноем
+    - Дек
+    month_names:
+    - 
+    - Януари
+    - Февруари
+    - Март
+    - Април
+    - Май
+    - Юни
+    - юли
+    - Август
+    - Септември
+    - Октомври
+    - Ноември
+    - Декември
+  decidim:
+    account:
+      show:
+        available_locales_helper: Езикът, на който ще получавате имейл известия.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Превишен лимит
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL адрес на хартата на CoFE
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Модераторът премахна %{resource_type} по следните причини %{report_reasons}.</br><i>%{resource_content}</i></br>Вж. обяснение по-долу:'
+    forms:
+      language:
+        language_help_text: Улеснете ни да преведем думите Ви и да ги направим достъпни за всички потребители – моля, посочете езика, на който пишете.
+        language_selector: 'Език, на който пишете:'
+      meetings:
+        attendees_count_help_text: Не забравяйте да посочите общия брой участници в събитието. Важно е да знаем колко хора участват физически, онлайн или на смесен принцип.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Изберете интересна за Вас област на участие с активирано представяне на идеи
+            '1': Старайте се да представяте осъществими идеи. Така е по-вероятно те да бъдат приети.
+        attended_meetings:
+          conditions:
+            '0': Регистрирайте се за събитията, в които искате да участвате
+        proposal_votes:
+          conditions:
+            '0': Разгледайте и помислете и над чужди идеи
+            '1': Подкрепете идеите, които Ви допадат или представляват интерес за Вас
+        proposals:
+          conditions:
+            '0': Изберете интересна за Вас област на участие с активирано представяне на идеи
+            '1': Представи нова идея
+    meetings:
+      actions:
+        hide: Скрий
+        unhide: Покажи
+      admin:
+        meetings:
+          edit:
+            title: Редактиране на събитие
+          form:
+            select_a_meeting_type: Моля, изберете вид събитие
+      directory:
+        meetings:
+          index:
+            subheading1: Изразете и споделете идеите си онлайн и в срещи на живо близо до вас.
+      extra:
+        filters:
+          all: Всички
+          closed: Събития с доклад
+          pending: Събития с предстоящ доклад
+      last_activity:
+        meeting_updated_at_html: "<span>Актуализирано събитие на адрес: %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Приключи събитието
+          title: Приключи събитието
+      meetings:
+        filters:
+          activity: моята дейност
+          all: Всички
+          my_meetings: Моите събития
+          type: Видове прояви
+          type_values:
+            all: Всички
+            hybrid: Смесени
+            online: Онлайн
+        form:
+          select_a_meeting_type: Моля, изберете вид среща
+          select_a_registration_type: Моля, изберете вид регистрация
+        online_meeting_link:
+          online_event: Посетете уебсайта на събитието
+        show:
+          close_meeting: Приключи събитието
+          with_meeting_report: Наличен доклад от събитието
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Събитие за граждани
+            group_meeting: Събитие за група
+      registration_type:
+        on_different_platform: На друга платформа
+        registration_disabled: Регистрацията е изключена
+      type_of_meeting:
+        hybrid: И двете
+        in_person: Присъствени
+        online: Онлайн
+    pages:
+      tabbed:
+        unfold: Разгъни
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Преглед на всички
+        see_all_count: "(виж всички%{count})"
+      highlighted_proposals:
+        see_all_button: Преглед на всички
+        see_all_count: "(виж всички%{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Идеи
+      proposals:
+        edit:
+          gallery_legend: "(По избор) Добавяне на изображение към картата на идеята"
+        index:
+          heading: Споделете с нас своя идея
+          subheading1: Можете да споделяте своите идеи, но можете и да разгледате идеи от цяла Европа. Участвайте в дискусията, като оставите коментар или гласувате за идеи, които харесвате, така че повече хора да ги открият.
+        preview:
+          announcement_body: Имате възможност да прегледате и да внесете промени в идеята си. Щом идеята Ви е готова, щракнете върху „Публикуване“ и тя ще се появи в платформата.
+          announcement_title: "<b>Има още една последна стъпка, която трябва да изпълните, преди да можете да публикувате идеята си.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Разпространява съдържание за незаконни действия, заплахи за самоубийство, лична информация или друго съдържание, което считате за неподходящо.
+        offensive: Разпространява съдържание за дискриминация на расова основа, дискриминация на полова основа, клевети, лични нападки, заплахи за убийство, заплахи за самоубийство или каквато и да е форма на изказвания, проповядващи вражда и омраза.
+        spam: Разпространява съдържание за кликбейт, реклами, измами или скрипт ботове.
+    statistics:
+      answers_count: Отговори
+      attendees_count: Участници в събитието
+      comments_count: Забележки
+      debates_count: Дебати
+      endorsements_count: Брой препоръки
+      followers_count: Последователи
+      headline: Какво се случва по тази тема?
+      meetings_count: Прояви
+      no_stats: Все още няма статистика.
+      orders_count: Подкрепяния
+      pages_count: Страници
+      participants_count: Участници
+      processes_count: Теми
+      projects_count: Проекти
+      proposals_count: Идеи
+      results_count: Резултати
+      supports_count: Подкрепяния
+      surveys_count: Проучвания
+      users_count: Участници
+  layouts:
+    decidim:
+      language_chooser:
+        close: Затваряне
+        eu_languages: Официални езици на ЕС
+        select_your_language: Изберете език
+      user:
+        logged_in: Влязъл в системата
+        logged_in_as: Влязъл като %{user}
+      wrapper:
+        unfold: Разгъни

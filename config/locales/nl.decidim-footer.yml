@@ -1,0 +1,80 @@
+---
+nl:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Over deze site
+          cookies: Cookies
+          language_policy: Talenbeleid op de Europa-website
+          legal_notice: Juridische mededeling
+          sitemap: Sitemap
+      contact_the_eu:
+        items:
+          call_us: Bel ons gratis op <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Schrijf ons via het <a href="https://europa.eu/european-union/contact/write-to-us_nl">contactformulier</a>
+          meet_us: Kom langs bij de <a href="https://europa.eu/european-union/contact/meet-us_nl">EU in uw land</a>
+          other_telephone: Bel ons op een <a href="https://europa.eu/european-union/contact/call-us_nl">andere manier</a>
+        title: Contact opnemen met de EU
+      eu_institution:
+        items:
+          agencies:
+            label: Instanties
+            url: https://europa.eu/european-union/about-eu/agencies_nl
+          central_bank:
+            label: Europese Centrale Bank (ECB)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.nl.html
+          commission:
+            label: Europese Commissie
+            url: http://ec.europa.eu/index_nl.htm
+          council:
+            label: Europese Raad
+            url: http://www.consilium.europa.eu/nl/european-council/
+          council_eu:
+            label: Raad van de Europese Unie
+            url: http://www.consilium.europa.eu/nl/home/
+          court_of_auditors:
+            label: Europese Rekenkamer
+            url: http://www.eca.europa.eu/nl
+          court_of_justice:
+            label: Hof van Justitie van de Europese Unie (HvJ-EU)
+            url: http://curia.europa.eu/jcms/jcms/j_6/nl/
+          data_protection_supervisor:
+            label: Europese Toezichthouder voor gegevensbescherming (EDPS)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=nl
+          dpb:
+            label: Europees Comité voor gegevensbescherming
+            url: https://edpb.europa.eu/edpb_nl
+          economic_social_committee:
+            label: Europees Economisch en Sociaal Comité (EESC)
+            url: http://www.eesc.europa.eu/?i=portal.nl.home
+          eu_regional_comittee:
+            label: Europees Comité van de Regio's (CvdR)
+            url: http://cor.europa.eu/nl/
+          external_action_service:
+            label: Europese Dienst voor extern optreden (EDEO)
+            url: http://eeas.europa.eu/index_nl.htm
+          investment_bank:
+            label: Europese Investeringsbank (EIB)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Europese Ombudsman
+            url: https://www.ombudsman.europa.eu/nl/home
+          parliament:
+            label: Europees Parlement
+            url: http://www.europarl.europa.eu/portal/nl
+          pou:
+            label: Bureau voor publicaties van de Europese Unie
+            url: https://op.europa.eu/nl/home
+          pso:
+            label: Europees Bureau voor personeelsselectie
+            url: https://epso.europa.eu/home_nl
+        title: EU-instellingen
+      social_media:
+        items:
+          search_channels:
+            label: EU-accounts op sociale media
+            url: https://europa.eu/european-union/contact/social-networks_nl
+        title: De EU op de sociale media
+    footer_menu:
+      organization: Conferentie over de toekomst van Europa

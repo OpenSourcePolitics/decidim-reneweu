@@ -1,0 +1,202 @@
+---
+sv:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Förslag
+      constraint:
+        subject_id: Ämnesområde
+      demographic:
+        living_condition: Beskriv var du bor
+      meeting:
+        cofe_charter_html: Jag förbinder mig följa <a href="%{url}" target="_blank">stadgan för</a> konferensen om Europas framtid
+        online_meeting_url: Webbadress för möte på nätet
+        registration_url: Webbadress för registrering
+      user:
+        eu_login_department_number: Avdelning
+        language_preference: Språkliga preferenser
+        user_name: Användarnamn
+  date:
+    abbr_month_names:
+    - 
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - Maj
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Okt
+    - Nov
+    - Dec
+    month_names:
+    - 
+    - Januari
+    - Februari
+    - Mars
+    - April
+    - Maj
+    - Juni
+    - Juli
+    - Augusti
+    - September
+    - Oktober
+    - November
+    - December
+  decidim:
+    Meeting:
+      content_blocks:
+        upcoming_events:
+          name: Tidigare händelser
+    account:
+      show:
+        available_locales_helper: Det språk som du ska få e-postmeddelanden på.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Kvot överskriden
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: CoFE charter URL
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'En moderator har tagit bort dina %{resource_type} eftersom de har inrapporterats som %{report_reasons}.</br><i>%{resource_content}</i></br>Se förklaring nedan:'
+    forms:
+      language:
+        language_help_text: Ange vilket språk du har använt, så kan vi översätta ditt bidrag så att alla användare kan läsa det.
+        language_selector: Vilket språk svarar du på?
+      meetings:
+        attendees_count_help_text: Glöm inte att inkludera det totala antalet deltagare i evenemanget, oavsett om de deltar på plats, online eller en kombination. Det är viktigt att vi vet hur många som är involverade.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Välj det ämnesområde du är intresserad av, med inlämning av idéer aktiverad
+            '1': Försök att lämna in idéer som kan genomföras. Då är sannolikheten större att de godkänns.
+        attended_meetings:
+          conditions:
+            '0': Anmäl dig till evenemang som du vill delta i
+        proposal_votes:
+          conditions:
+            '0': Ta dig tid att bläddra igenom och läsa andras idéer
+            '1': Ge stöd åt de idéer du gillar eller tycker verkar intressanta
+        proposals:
+          conditions:
+            '0': Välj det ämnesområde du är intresserad av, med inlämning av idéer aktiverad
+            '1': Skapa en ny idé
+    meetings:
+      actions:
+        hide: Dölj
+        unhide: Visa
+      admin:
+        meetings:
+          edit:
+            title: Redigera händelse
+          form:
+            select_a_meeting_type: Välj typ av möte
+      directory:
+        meetings:
+          index:
+            subheading1: Gör din röst hörd och dela med dig av dina idéer vid evenemang på nätet och fysiska evenemang nära dig.
+      extra:
+        filters:
+          all: Alla
+          closed: Evenemang med rapport
+          pending: Evenemang som inväntar rapport
+      last_activity:
+        meeting_updated_at_html: "<span>Evenemanget uppdaterades den %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Stäng evenemang
+          title: Stäng evenemang
+      meetings:
+        filters:
+          activity: Min aktivitet
+          all: Alla
+          my_meetings: Mina evenemang
+          type: Typer av evenemang
+        form:
+          disclaimer: 'Ansvarsfriskrivning: Om du använder ett externt registreringssystem är organisatörerna av %{organization} inte ansvariga för uppgifterna från användarna av den externa tjänsten.'
+          select_a_meeting_type: Välj typ av möte
+          select_a_registration_type: Välj en registreringstyp
+        online_meeting_link:
+          online_event: Gå till evenemangets webbplats
+        show:
+          close_meeting: Stäng evenemang
+          with_meeting_report: Evenemang där rapport finns tillgänglig
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Medborgarevenemang
+            group_meeting: Gruppevenemang
+      registration_type:
+        on_different_platform: På en annan plattform
+        registration_disabled: Registrering avaktiverad
+      type_of_meeting:
+        hybrid: Båda
+        in_person: Personligt
+        online: Online
+    pages:
+      tabbed:
+        unfold: Öppna
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Visa alla
+        see_all_count: "(se alla %{count})"
+      highlighted_proposals:
+        see_all_button: Visa alla
+        see_all_count: "(se alla %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Idéer
+      proposals:
+        edit:
+          gallery_legend: Lägg till en bild (valfritt)
+        index:
+          heading: Dela en idé med oss
+          subheading1: Förutom att dela med dig av dina egna idéer kan du också hitta andra idéer från hela Europa. Gå med i diskussionen genom att lämna en kommentar, eller rösta på idéer du gillar så att fler kan hitta dem.
+        preview:
+          announcement_body: Du kan granska och redigera din idé. När din idé är färdig, klicka på “Publicera” så dyker den upp på plattformen.
+          announcement_title: Efter publiceringen har du 30 minuter på dig om du vill ändra på något.
+    shared:
+      flag_user_modal:
+        does_not_belong: Främjar olaglig verksamhet eller innehåller självmordshot, personlig information eller något annat som du inte tycker hör hemma här.
+        offensive: Främjar rasism, sexism, förtal, personliga attacker, dödshot, uppmaningar till självmord eller någon form av hatpropaganda.
+        spam: Främjar klickbete, reklam, bedrägerier eller skriptbottar.
+    statistics:
+      answers_count: Svar
+      attendees_count: Evenemangsdeltagare
+      comments_count: Kommentarer
+      debates_count: Debatter
+      endorsements_count: Stödförklaringar
+      followers_count: Följare
+      headline: Statistik
+      meetings_count: Evenemang
+      no_stats: Det finns ingen statistik än.
+      orders_count: Stöd
+      pages_count: Sidor
+      participants_count: Deltagare
+      processes_count: Ämnen
+      projects_count: Projekt
+      proposals_count: Idéer
+      results_count: Resultat
+      supports_count: Stöd
+      surveys_count: Undersökningar
+      users_count: Deltagare
+  layouts:
+    decidim:
+      language_chooser:
+        close: Avsluta
+        eu_languages: Officiella EU-språk
+        select_your_language: Välj språk
+      user:
+        logged_in: Inloggad
+        logged_in_as: Inloggad som %{user}
+      wrapper:
+        unfold: Öppna

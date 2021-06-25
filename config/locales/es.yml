@@ -1,0 +1,199 @@
+---
+es:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Ideas
+      constraint:
+        subject_id: Proceso
+      meeting:
+        cofe_charter_html: Acepto la <a href="%{url}" target="_blank">Carta</a> de la Conferencia sobre el Futuro de Europa
+        online_meeting_url: URL de la reunión en línea
+        registration_url: URL de inscripción
+      user:
+        eu_login_department_number: Departamento
+        eu_login_organisation: Organización
+        language_preference: Preferencia de idioma
+        user_name: Nombre de usuario
+  date:
+    abbr_month_names:
+    - 
+    - ene.
+    - feb.
+    - mar.
+    - abril
+    - mayo
+    - jun.
+    - jul.
+    - ago.
+    - sep.
+    - oct.
+    - nov.
+    - dic.
+    month_names:
+    - 
+    - enero
+    - febrero
+    - marzo
+    - abril
+    - mayo
+    - junio
+    - julio
+    - agosto
+    - septiembre
+    - octubre
+    - noviembre
+    - diciembre
+  decidim:
+    account:
+      show:
+        available_locales_helper: El idioma en el que recibirá las notificaciones por correo electrónico.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Cuota superada
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL a la Carta de la COFE
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Un moderador ha eliminado su %{resource_type} porque ha sido denunciada como %{report_reasons}.</br><i>%{resource_content}</i></br>Véase la explicación a continuación:'
+    forms:
+      language:
+        language_help_text: Ayúdenos a garantizar que su contribución pueda ser traducida para que todos los usuarios puedan leerla. Para ello, seleccione el idioma en el que ha escrito.
+        language_selector: 'Idioma de su contribución:'
+      meetings:
+        attendees_count_help_text: No olvide incluir el número total de participantes en su evento. Ya sea en persona, de manera híbrida o en línea, es importante que sepamos cuántas personas participan.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Elija el espacio participativo que le interese y que tenga la presentación de ideas habilitada
+            '1': Intente proponer ideas que puedan llevarse a cabo. Eso aumentará las probabilidades de que se acepten.
+        attended_meetings:
+          conditions:
+            '0': Inscríbase en los eventos a los que desee asistir
+        proposal_votes:
+          conditions:
+            '0': Busque entre las ideas de otras personas y lea algunas de ellas
+            '1': Apoye las ideas que le gusten o que considere interesantes
+        proposals:
+          conditions:
+            '0': Elija el espacio participativo que le interese y que tenga la presentación de propuestas habilitada
+            '1': Crear una nueva idea
+    meetings:
+      actions:
+        hide: Ocultar
+        unhide: Mostrar
+      admin:
+        meetings:
+          edit:
+            title: Editar evento
+          form:
+            select_a_meeting_type: Seleccione un tipo de evento
+      directory:
+        meetings:
+          index:
+            subheading1: Haz oír tu voz y comparte tus ideas en eventos online y presenciales cerca de ti.
+      extra:
+        filters:
+          all: Todas
+          closed: Eventos con informe
+          pending: Eventos pendientes de informe
+      last_activity:
+        meeting_updated_at_html: "<span>Evento actualizado en  %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Cerrar evento
+          title: Cerrar evento
+      meetings:
+        filters:
+          activity: Mi actividad
+          all: Todos
+          my_meetings: Mis eventos
+          type: Tipos de eventos
+          type_values:
+            hybrid: Ambos
+            online: En línea
+        form:
+          select_a_meeting_type: Seleccione un tipo de reunión
+          select_a_registration_type: Seleccione un tipo de inscripción
+        online_meeting_link:
+          online_event: Enlace al sitio web del evento
+        show:
+          close_meeting: Cerrar evento
+          with_meeting_report: Eventos con informe disponible
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Evento ciudadano
+            group_meeting: Evento de grupo
+      registration_type:
+        on_different_platform: En otra plataforma
+        registration_disabled: Inscripción desactivada
+      type_of_meeting:
+        hybrid: Ambas
+        in_person: En persona
+        online: En línea
+    pages:
+      tabbed:
+        unfold: Desplegar
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Ver todo
+        see_all_count: "(ver todo %{count})"
+      highlighted_proposals:
+        see_all_button: Ver todo
+        see_all_count: "(ver todo %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Ideas
+      proposals:
+        edit:
+          gallery_legend: "(Opcional) Añada una imagen a la tarjeta de la idea"
+        index:
+          heading: Comparte una idea con nosotros
+          subheading1: Además de compartir tus propias ideas, puedes también encontrar otras ideas de toda Europa. Participa en el debate dejando un comentario, o vota por ideas que te gusten para que más personas las encuentren.
+        preview:
+          announcement_body: Ahora tiene la oportunidad de revisar y modificar su idea. Cuando su idea esté lista, haga clic en «Publicar» y aparecerá en la plataforma.
+          announcement_title: "<b>Solo queda un paso antes de que pueda publicar su idea.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Promueve actividades ilegales, amenazas de suicidio, información personal o cualquier otro elemento que no considere apropiado.
+        offensive: Promueve el racismo, el sexismo, calumnias, ataques personales, amenazas de muerte, peticiones de suicidio o cualquier otra forma de incitación al odio.
+        spam: Promueve cibercebos, anuncios, estafas o bots.
+    statistics:
+      answers_count: Respuestas
+      attendees_count: Participantes en el evento
+      comments_count: Comentarios
+      debates_count: Debates
+      endorsements_count: Adhesiones
+      followers_count: Seguidores
+      headline: "¿Qué está ocurriendo en relación con este tema?"
+      meetings_count: Eventos
+      no_stats: Todavía no existen estadísticas.
+      orders_count: Apoyos
+      pages_count: Páginas
+      participants_count: Participantes
+      processes_count: Temas
+      projects_count: Proyectos
+      proposals_count: Ideas
+      results_count: Resultados
+      supports_count: Apoyos
+      surveys_count: Encuestas
+      users_count: Participantes
+  layouts:
+    decidim:
+      language_chooser:
+        close: Cerrar
+        eu_languages: Idiomas oficiales de la UE
+        select_your_language: Selecciona tu idioma
+      user:
+        logged_in: Sesión iniciada
+        logged_in_as: Sesión iniciada como %{user}
+      wrapper:
+        unfold: Desplegar

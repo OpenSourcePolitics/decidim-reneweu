@@ -1,0 +1,196 @@
+---
+fi:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Ideat
+      constraint:
+        subject_id: Aihe
+      meeting:
+        cofe_charter_html: Suostun noudattamaan Euroopan tulevaisuutta käsittelevän konferenssin <a href="%{url}" target="_blank">peruskirjaa</a>
+        online_meeting_url: Verkkokokouksen URL-osoite
+        registration_url: Rekisteröinnin URL-osoite
+      user:
+        eu_login_department_number: Osasto
+        eu_login_organisation: Organisaatio
+        language_preference: Kielipreferenssi
+        user_name: Käyttäjätunnus
+  date:
+    abbr_month_names:
+    - 
+    - Tammik.
+    - Helmik.
+    - Maalisk.
+    - Huhtik.
+    - Toukok.
+    - Kesäk.
+    - Heinäk.
+    - Elok.
+    - Syysk.
+    - Lokak.
+    - Marrask.
+    - Jouluk.
+    month_names:
+    - 
+    - Tammikuu
+    - Helmikuu
+    - Maaliskuu
+    - Huhtikuu
+    - Toukokuu
+    - Kesäkuu
+    - Heinäkuu
+    - Elokuu
+    - Syyskuu
+    - Lokakuu
+    - Marraskuu
+    - Joulukuu
+  decidim:
+    account:
+      show:
+        available_locales_helper: Kieli, jolla saat sähköposti-ilmoitukset.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Kiintiö ylittynyt
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: CoFEn käyttöehtojen URL
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Lähettämäsi %{resource_type} on poistettu moderaattorin toimesta. Syy: %{report_reasons}.</br><i>%{resource_content}</i></br>Lisätietoa:'
+    forms:
+      language:
+        language_help_text: Valitse kieli, jolla olet kirjoittanut viestisi, jotta se voidaan kääntää muunkielisiä käyttäjiä varten.
+        language_selector: 'Viestisi kieli:'
+      meetings:
+        attendees_count_help_text: Muista ilmoittaa tapahtuman osallistujien kokonaismäärä olipa kyseessä fyysinen, verkko- tai hybriditapahtuma. Tämä on meille tärkeä tieto.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Valitse sinua kiinnostava osallistumistila, jossa ideoiden esittäminen on mahdollista
+            '1': Pyri esittämään vain toteuttamiskelpoisia ideoita. Näin ne hyväksytään todennäköisemmin.
+        attended_meetings:
+          conditions:
+            '0': Ilmoittaudu tapahtumiin
+        proposal_votes:
+          conditions:
+            '0': Tutustu muiden ideoihin
+            '1': Tue kannattamiasi ideoita
+        proposals:
+          conditions:
+            '0': Valitse sinua kiinnostava osallistumistila, jossa ideoiden esittäminen on mahdollista
+            '1': Esitä uusi idea
+    meetings:
+      actions:
+        hide: Piilota
+        unhide: Näytä
+      admin:
+        meetings:
+          edit:
+            title: Muokkaa tapahtumaa
+          form:
+            select_a_meeting_type: Valitse tapahtumatyyppi
+      directory:
+        meetings:
+          index:
+            subheading1: Kerro ajatuksistasi verkkotapahtumissa ja muissa tilaisuuksissa lähialueellasi.
+      extra:
+        filters:
+          all: Kaikki
+          closed: Tapahtumat, joista raportti saatavilla
+          pending: Tapahtumat, joista ei vielä raporttia
+      last_activity:
+        meeting_updated_at_html: "<span>Tapahtumatietoja päivitetty %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Sulje tapahtuma
+          title: Sulje tapahtuma
+      meetings:
+        filters:
+          activity: Oma toimintani
+          all: Kaikki
+          my_meetings: Omat tapahtumani
+          type: Tapahtumatyypit
+        form:
+          select_a_meeting_type: Valitse tapahtumatyyppi
+          select_a_registration_type: Valitse rekisteröintityyppi
+        online_meeting_link:
+          online_event: Tapahtuman verkkosivusto
+        show:
+          close_meeting: Sulje tapahtuma
+          with_meeting_report: Tapahtumaraportti saatavilla
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Yleisötapahtuma
+            group_meeting: Ryhmätapaaminen
+      registration_type:
+        on_different_platform: Toisella alustalla
+        registration_disabled: Rekisteröityminen estetty
+      type_of_meeting:
+        hybrid: Molemmat
+        in_person: Paikan päällä
+        online: Verkossa
+    pages:
+      tabbed:
+        unfold: Avaa
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Näytä kaikki
+        see_all_count: "(näytä kaikki %{count})"
+      highlighted_proposals:
+        see_all_button: Näytä kaikki
+        see_all_count: "(näytä kaikki %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Ideat
+      proposals:
+        edit:
+          gallery_legend: "(Valinnainen) Lisää kuva"
+        index:
+          heading: Kerro ideastasi
+          subheading1: Voit jakaa omia ideoitasi ja tutustua muiden ideoihin eri puolilta Eurooppaa. Kommentoi ideoita ja äänestä hyvinä pitämiäsi ideoita, niin ne saavat enemmän näkyvyyttä.
+        preview:
+          announcement_body: Voit vielä tarkastaa sen ja muokata sitä. Kun ehdotuksesi on valmis, napsauta ”Julkaise”, niin se julkaistaan foorumissa.
+          announcement_title: "<b>Tämä on viimeinen vaihe ennen ehdotuksesi julkaisua.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Edistää laitonta toimintaa, kannustaa itsetuhoiseen käytökseen, sisältää henkilökohtaisia tietoja tai jotakin muuta, joka ei mielestäsi kuulu tänne.
+        offensive: Sisältää rasismia, seksismiä, loukkaavaa kieltä, henkilökohtaisia hyökkäyksiä, tappouhkauksia, itsemurhakehotuksia tai vihapuhetta.
+        spam: Edistää klikkiotsikoita, mainoksia, huijauksia tai komentosarjabotteja.
+    statistics:
+      answers_count: Vastaukset
+      attendees_count: Tapahtuman osallistujat
+      comments_count: Kommentit
+      debates_count: Keskustelut
+      endorsements_count: Suositusta
+      followers_count: Seuraajaa
+      headline: Mitä tällä aihealueella on meneillään?
+      meetings_count: Tapahtumia
+      no_stats: Tilastoja ei vielä ole.
+      orders_count: Tuenosoitukset
+      pages_count: Sivut
+      participants_count: Osallistujaa
+      processes_count: Aiheet
+      projects_count: Hankkeet
+      proposals_count: Ideoita
+      results_count: Tulokset
+      supports_count: Tuenosoitukset
+      surveys_count: Kyselyt
+      users_count: Osallistujat
+  layouts:
+    decidim:
+      language_chooser:
+        close: Sulje
+        eu_languages: EU:n viralliset kielet
+        select_your_language: Valitse kieli
+      user:
+        logged_in: Kirjautuneena
+        logged_in_as: Kirjautuneena käyttäjänä %{user}
+      wrapper:
+        unfold: Avaa

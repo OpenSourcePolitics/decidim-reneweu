@@ -1,0 +1,215 @@
+---
+it:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Idee
+      constraint:
+        subject_id: Argomento
+      demographic:
+        gender: Gender
+        nationalities: 'Cittadinanza (fino a 3 scelte possibili):'
+      meeting:
+        cofe_charter_html: Sono d'accordo con il contenuto della <a href="%{url}" target="_blank">Carta</a> della conferenza sul futuro dell'Europa
+        online_meeting_url: URL dell'evento online
+        registration_url: URL per iscriversi
+      user:
+        eu_login_department_number: Dipartimento
+        eu_login_organisation: Organizzazione
+        language_preference: Preferenza della lingua
+        user_name: Nome utente
+  date:
+    abbr_month_names:
+    - 
+    - Gen
+    - Feb
+    - Mar
+    - Apr
+    - Mag
+    - Giu
+    - Lug
+    - Ago
+    - Set
+    - Ott
+    - Nov
+    - Dic
+    month_names:
+    - 
+    - gennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
+  decidim:
+    account:
+      show:
+        available_locales_helper: La lingua in cui riceverai le notifiche via e-mail.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Quota superata
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL della Carta CoFE
+    demographics:
+      directory:
+        demographics:
+          form:
+            current_occupations:
+              house-person: Casalingo/a
+              manual-worker: Operaio/a
+              professional-worker: Impiegato/a, libero/a professionista
+              retired: Pensionato/a (selezionare anche la professione che si svolgeva prima della pensione)
+              self-employed: Autonomo/a
+              student: Studente/studentessa
+              unemployed: Disoccupato/a (selezionare anche la professione che si svolgeva prima della disoccupazione)
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Un moderatore ha rimosso la tua %{resource_type} perché è stata segnalata per la seguente ragione: %{report_reasons}.</br><i>%{resource_content}</i></br>Vedi la spiegazione sotto:'
+    forms:
+      language:
+        language_help_text: Aiutaci a far sì che il tuo contributo sia tradotto e che tutti gli utenti possano leggerlo selezionando la lingua in cui hai scritto.
+        language_selector: 'Lingua del contributo:'
+      meetings:
+        attendees_count_help_text: Non dimenticare di inserire il numero complessivo dei partecipanti al tuo evento. Che si tratti di un evento presenziale, ibrido oppure online, è importante comunicarci il numero esatto di persone coinvolte.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Scegli uno spazio partecipativo di tuo interesse nel quale sia abilitata la presentazione di idee
+            '1': Cerca di presentare idee che possano essere realizzate. In questo modo avranno maggiori probabilità di essere accettate.
+        attended_meetings:
+          conditions:
+            '0': Iscriviti agli eventi a cui desideri partecipare
+        proposal_votes:
+          conditions:
+            '0': Sfoglia l'elenco e dai un'occhiata alle idee presentate da altri utenti
+            '1': Aderisci alle idee che ritieni utili o interessanti
+        proposals:
+          conditions:
+            '0': Scegli uno spazio partecipativo di tuo interesse nel quale sia abilitata la presentazione di idee
+            '1': Crea una nuova idea
+    meetings:
+      actions:
+        hide: Nascondi
+        unhide: Mostra
+      admin:
+        meetings:
+          edit:
+            title: Modifica evento
+          form:
+            select_a_meeting_type: Seleziona un tipo di evento
+      directory:
+        meetings:
+          index:
+            subheading1: Fai sentire la tua voce e condividi le tue idee in eventi online e presenziali che si svolgono vicino a te.
+      extra:
+        filters:
+          all: Tutti
+          closed: Eventi con relazione disponibile
+          pending: Eventi con relazione in fase di preparazione
+      last_activity:
+        meeting_updated_at_html: "<span>Evento aggiornato alle %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Chiudi evento
+          title: Chiudi evento
+      meetings:
+        filters:
+          activity: La mia attività
+          all: Tutti
+          my_meetings: I miei eventi
+          type: Tipi di evento
+          type_values:
+            all: Tutti
+            hybrid: Entrambi
+        form:
+          disclaimer: Avvertenza - se scegli di utilizzare un servizio di iscrizione esterno, sollevi gli organizzatori della Conferenza sul futuro dell'Europa da qualsiasi responsabilità per i dati forniti dagli utenti al servizio di iscrizione esterno.
+          select_a_meeting_type: Seleziona il tipo di evento
+          select_a_registration_type: Seleziona il tipo di iscrizione
+        online_meeting_link:
+          online_event: Vai al sito web dell'evento
+        show:
+          close_meeting: Chiudi evento
+          with_meeting_report: Relazione sull'evento disponibile
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Evento di cittadini
+            group_meeting: Evento di un gruppo
+      registration_type:
+        on_different_platform: Su un'altra piattaforma
+        registration_disabled: Iscrizione disattivata
+      type_of_meeting:
+        hybrid: Entrambi
+        in_person: In presenza
+        online: Online
+    pages:
+      tabbed:
+        unfold: Espandi
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Vedi tutto
+        see_all_count: "(Vedi tutti gli %{count})"
+      highlighted_proposals:
+        see_all_button: Vedi tutto
+        see_all_count: "(Vedi tutti gli %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Idee
+      proposals:
+        edit:
+          gallery_legend: "(Facoltativo) Aggiungi un'immagine alla scheda dell'idea"
+        index:
+          heading: Condividi un'idea con noi
+          subheading1: Oltre a condividere le tue idee, puoi trovarne altre pubblicate da persone di tutta Europa. Partecipa alla discussione lasciando un commento, o vota per idee che ti piacciono in modo che possano essere visualizzate da un maggior numero di persone.
+        preview:
+          announcement_body: Hai la possibilità di rivedere e modificare la tua idea. Dopo che la tua idea è pronta, clicca su “Pubblica” e questa apparirà sulla piattaforma.
+          announcement_title: "<b>Prima di poter pubblicare la tua idea c’è un ultimo passaggio.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Promuove attività illecite, minacce di suicidio, informazioni personali o altri contenuti che ritieni incompatibili con questo spazio.
+        offensive: Promuove contenuti di tipo razzista o sessista, insulti, attacchi personali, minacce di morte, istigazione al suicidio o qualsiasi forma di incitamento all'odio.
+        spam: Promuove clickbait, pubblicità, truffe o bot di script.
+    statistics:
+      answers_count: Risposte
+      attendees_count: Partecipanti all'evento
+      comments_count: Commenti
+      debates_count: Dibattiti
+      endorsements_count: Approvazioni
+      followers_count: Follower
+      headline: Statistiche
+      meetings_count: Eventi
+      no_stats: Non esistono ancora statistiche.
+      orders_count: Adesioni
+      pages_count: Pagine
+      participants_count: Partecipanti
+      processes_count: Argomenti
+      projects_count: Progetti
+      proposals_count: Idee
+      results_count: Risultati
+      supports_count: Adesioni
+      surveys_count: Indagini
+      users_count: Partecipanti
+  layouts:
+    decidim:
+      language_chooser:
+        close: Chiudi
+        eu_languages: Lingue ufficiali dell'UE
+        select_your_language: Seleziona la tua lingua
+      user:
+        logged_in: Accesso effettuato
+        logged_in_as: Accesso effettuato come %{user}
+      wrapper:
+        unfold: Espandi

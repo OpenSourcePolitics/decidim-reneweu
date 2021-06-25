@@ -1,0 +1,80 @@
+---
+it:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Informazioni sul sito
+          cookies: Cookie
+          language_policy: Politica linguistica
+          legal_notice: Note legali
+          sitemap: Mappa del sito
+      contact_the_eu:
+        items:
+          call_us: Telefonaci allo <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Scrivici - compila il <a href="https://europa.eu/european-union/contact/write-to-us_it">modulo di contatto</a>
+          meet_us: Vieni a trovarci nell'<a href="https://europa.eu/european-union/contact/meet-us_it">ufficio dell'UE</a>  più vicino
+          other_telephone: Scegli altre <a href="https://europa.eu/european-union/contact/call-us_it">opzioni telefoniche</a>
+        title: Contatta l'UE
+      eu_institution:
+        items:
+          agencies:
+            label: Agenzie
+            url: https://europa.eu/european-union/about-eu/agencies_it
+          central_bank:
+            label: Banca centrale europea (BCE)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.it.html
+          commission:
+            label: Commissione europea
+            url: https://ec.europa.eu/commission/index_it
+          council:
+            label: Consiglio europeo
+            url: http://www.consilium.europa.eu/it/european-council/
+          council_eu:
+            label: Consiglio dell'Unione europea
+            url: http://www.consilium.europa.eu/it/home/
+          court_of_auditors:
+            label: Corte dei conti europea
+            url: http://www.eca.europa.eu/it
+          court_of_justice:
+            label: Corte di giustizia dell'Unione europea (CGUE)
+            url: http://curia.europa.eu/jcms/jcms/j_6/it/
+          data_protection_supervisor:
+            label: Garante europeo della protezione dei dati (GEPD)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=it
+          dpb:
+            label: Comitato europeo per la protezione dei dati
+            url: https://edpb.europa.eu/edpb_it
+          economic_social_committee:
+            label: Comitato economico e sociale europeo (CESE)
+            url: http://www.eesc.europa.eu/?i=portal.it.home
+          eu_regional_comittee:
+            label: Comitato europeo delle regioni (CdR)
+            url: http://cor.europa.eu/it/
+          external_action_service:
+            label: Servizio europeo per l’azione esterna (SEAE)
+            url: http://eeas.europa.eu/index_it.htm
+          investment_bank:
+            label: Banca europea per gli investimenti (BEI)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Mediatore europeo
+            url: https://www.ombudsman.europa.eu/it/home
+          parliament:
+            label: Parlamento europeo
+            url: http://www.europarl.europa.eu/portal/it
+          pou:
+            label: Ufficio delle pubblicazioni dell’Unione europea
+            url: https://op.europa.eu/it/home
+          pso:
+            label: L'Ufficio europeo di selezione del personale
+            url: https://epso.europa.eu/home_it
+        title: Istituzioni dell'UE
+      social_media:
+        items:
+          search_channels:
+            label: Cerca i canali dell'UE sui social media
+            url: https://europa.eu/european-union/contact/social-networks_it
+        title: Trova un account sui social media
+    footer_menu:
+      organization: Conferenza sul futuro dell'Europa

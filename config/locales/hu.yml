@@ -1,0 +1,200 @@
+---
+hu:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Ötletek
+      constraint:
+        subject_id: Téma
+      demographic:
+        gender: Genere
+        nationalities: 'Állampolgárság (legfeljebb 3-at jelöljön meg):'
+      meeting:
+        cofe_charter_html: Elfogadom az Európa jövőjéről szóló konferencia <a href="%{url}" target="_blank">alapokmányát</a>.
+        online_meeting_url: Online ülés URL-címe
+        registration_url: Regisztrációs URL-cím
+      user:
+        language_preference: Nyelvi preferencia
+        user_name: Felhasználónév
+  date:
+    abbr_month_names:
+    - 
+    - jan.
+    - feb.
+    - márc.
+    - ápr.
+    - máj.
+    - jún.
+    - júl.
+    - aug.
+    - szept.
+    - okt.
+    - nov.
+    - dec.
+    month_names:
+    - 
+    - január
+    - február
+    - március
+    - április
+    - május
+    - június
+    - július
+    - augusztus
+    - szeptember
+    - október
+    - november
+    - december
+  decidim:
+    account:
+      show:
+        available_locales_helper: Az a nyelv, amelyen az e-mail értesítések érkeznek.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Túllépte a keretet.
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: Az Európa jövőjéről szóló konferencia alapokmányának URL-címe
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'A moderátor eltávolította az Ön %{resource_type} dokumentumát, mert bejelentés érkezett arról, hogy az %{report_reasons}.</br><i>%{resource_content}</i></br>Lásd az alábbi magyarázatot:'
+    forms:
+      language:
+        language_help_text: a hozzászólás nyelvének megfelelő beállításával biztosítja, hogy észrevételei lefordíthatók legyenek, és azokat valamennyi felhasználó el tudja olvasni.
+        language_selector: 'Az Ön hozzászólásának nyelve:'
+      meetings:
+        attendees_count_help_text: Ne felejtse el feltüntetni a rendezvényen részt vevők teljes számát! Fontos tudnunk, hogy azon hány ember vesz részt, akár személyesen, akár hibrid formában, akár online.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Válassza ki az Ön számára érdekes részvételi helyet, ahol engedélyezték az ötletek benyújtását
+            '1': Próbáljon kivitelezhető ötleteket előterjeszteni. Így nagyobb valószínűséggel fogadják el azokat.
+        attended_meetings:
+          conditions:
+            '0': Regisztráljon azokra az eseményekre, amelyeken részt kíván venni
+        proposal_votes:
+          conditions:
+            '0': Böngésszen, és töltsön el egy kis időt mások ötleteinek végigolvasásával
+            '1': Támogassa az Önnek tetsző vagy érdekesnek tűnő ötleteket
+        proposals:
+          conditions:
+            '0': Válassza ki az Ön számára érdekes részvételi helyet, ahol engedélyezték az ötletek benyújtását
+            '1': Új ötlet létrehozása
+    meetings:
+      actions:
+        hide: Elrejtés
+        unhide: Megjelenítés
+      admin:
+        meetings:
+          edit:
+            title: Esemény szerkesztése
+          form:
+            select_a_meeting_type: Kérjük, válasszon eseménytípust
+      directory:
+        meetings:
+          index:
+            subheading1: Adjon hangot véleményének, és ossza meg ötleteit online, illetve az Önhöz közeli helyszíneken zajló személyes találkozókon.
+      extra:
+        filters:
+          all: Összes
+          closed: Beszámolóval kísért rendezvények
+          pending: A rendezvényről készült beszámoló még nem érhető el
+      last_activity:
+        meeting_updated_at_html: "<span>Event updated at %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Esemény zárása
+          title: Esemény zárása
+      meetings:
+        filters:
+          activity: Tevékenység
+          all: All
+          my_meetings: Találkozóim
+          type: Eseménytípusok
+          type_values:
+            all: Mind
+            hybrid: Mindkettő
+        form:
+          select_a_meeting_type: Kérjük, válassza ki a rendezvény típusát
+          select_a_registration_type: Kérjük, válassza ki a regisztráció típusát
+        online_meeting_link:
+          online_event: Ugrás az esemény weboldalára
+        show:
+          close_meeting: Esemény zárása
+          with_meeting_report: A rendezvényről készült beszámoló elérhető
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Állampolgári esemény
+            group_meeting: Csoportos esemény
+      registration_type:
+        on_different_platform: Más platformon
+        registration_disabled: Regisztráció letiltva
+      type_of_meeting:
+        hybrid: Mindkettő
+        in_person: Személyes jelenléten alapuló
+        online: Online
+    pages:
+      tabbed:
+        unfold: Kibontás
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Az összes megtekintése
+        see_all_count: "(mind a %{count} megtekintése)"
+      highlighted_proposals:
+        see_all_button: Az összes megtekintése
+        see_all_count: "(mind a %{count} megtekintése)"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Ötletek
+      proposals:
+        edit:
+          gallery_legend: "(Opcionális) Kép hozzáadása az ötletkártyához"
+        index:
+          heading: Ossza meg velünk ötleteit!
+          subheading1: A saját ötleteinek megosztása mellett értesülhet más, Európa minden részéből származó ötletekről. Hozzászólásával vegyen részt a vitában vagy szavazzon az Önnek tetsző ötletekre, hogy azok még több emberhez jussanak el.
+        preview:
+          announcement_body: Lehetősége van áttekinteni és módosítani gondolatait. Amint elkészült, kattintson a Közzététel gombra, hogy ötlete megjelenjen a platformon.
+          announcement_title: "<b>Még egy lépés van hátra, mielőtt közzéteszi ötletét.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Jogellenes tevékenységet, öngyilkossági fenyegetéseket, személyes adatokat vagy más olyan elemet tartalmaz, amelyről Ön úgy gondolja, hogy nem való ide.
+        offensive: Rasszizmust, szexizmust, rágalmakat, személyes támadásokat, halálos fenyegetéseket, öngyilkosságra való felszólítást vagy a gyűlöletbeszéd bármilyen formáját tartalmazza.
+        spam: Kattintásvadász tartalmakat, hirdetéseket, csalásokat vagy szkriptbotokat tartalmaz.
+    statistics:
+      answers_count: Válaszok
+      attendees_count: A rendezvény résztvevői
+      comments_count: Hozzászólások
+      debates_count: Viták
+      endorsements_count: támogató kiállás
+      followers_count: követők
+      headline: Mi történik ebben a témában?
+      meetings_count: rendezvény
+      no_stats: Még nincsenek statisztikák.
+      orders_count: Támogatások
+      pages_count: Oldalak
+      participants_count: résztvevő
+      processes_count: Témák
+      projects_count: Projektek
+      proposals_count: ötlet
+      results_count: Eredmények
+      supports_count: Támogatások
+      surveys_count: Felmérések
+      users_count: résztvevő
+  layouts:
+    decidim:
+      language_chooser:
+        close: Bezárás
+        eu_languages: Az EU hivatalos nyelvei
+        select_your_language: Válasszon nyelvet
+      user:
+        logged_in: Bejelentkezve
+        logged_in_as: Bejelentkezve %{user} felhasználóként
+      wrapper:
+        unfold: Kibontás

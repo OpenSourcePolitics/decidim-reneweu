@@ -1,0 +1,80 @@
+---
+lv:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Par šo vietni
+          cookies: Sīkdatnes
+          language_policy: Valodu politika
+          legal_notice: Juridisks paziņojums
+          sitemap: Vietnes plāns
+      contact_the_eu:
+        items:
+          call_us: Zvaniet mums <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Rakstiet, izmantojot <a href="https://europa.eu/european-union/contact/write-to-us_lv">saziņas veidlapu</a>
+          meet_us: Nāciet uz <a href="https://europa.eu/european-union/contact/meet-us_lv">vietējo ES biroju</a>
+          other_telephone: Izmantojiet <a href="https://europa.eu/european-union/contact/call-us_lv">citas tālruņa līnijas</a>
+        title: Kā sazināties ar ES
+      eu_institution:
+        items:
+          agencies:
+            label: Agenzie
+            url: https://europa.eu/european-union/about-eu/agencies_lv
+          central_bank:
+            label: Eiropas Centrālā banka (ECB)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.lv.html
+          commission:
+            label: Eiropas Komisija
+            url: http://ec.europa.eu/index_lv.htm
+          council:
+            label: Eiropadome
+            url: http://www.consilium.europa.eu/lv/european-council/
+          council_eu:
+            label: Eiropas Savienības Padome
+            url: http://www.consilium.europa.eu/lv/home/
+          court_of_auditors:
+            label: Eiropas Revīzijas palāta
+            url: http://www.eca.europa.eu/lv
+          court_of_justice:
+            label: Eiropas Savienības Tiesa
+            url: http://curia.europa.eu/jcms/jcms/j_6/lv/
+          data_protection_supervisor:
+            label: Eiropas Datu aizsardzības uzraudzītājs (EDAU)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=lv
+          dpb:
+            label: Eiropas Datu aizsardzības kolēģija
+            url: https://edpb.europa.eu/edpb_lv
+          economic_social_committee:
+            label: Eiropas Ekonomikas un sociālo lietu komiteja (EESK)
+            url: http://www.eesc.europa.eu/?i=portal.lv.home
+          eu_regional_comittee:
+            label: Eiropas Reģionu komiteja (RK)
+            url: http://cor.europa.eu/lv/
+          external_action_service:
+            label: Eiropas Ārējās darbības dienests (EĀDD)
+            url: http://eeas.europa.eu/index_lv.htm
+          investment_bank:
+            label: Eiropas Investīciju banka (EIB)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Eiropas Ombuds
+            url: https://www.ombudsman.europa.eu/lv/home
+          parliament:
+            label: Eiropas Parlaments
+            url: http://www.europarl.europa.eu/portal/lv
+          pou:
+            label: Eiropas Savienības Publikāciju birojs
+            url: https://op.europa.eu/lv/home
+          pso:
+            label: Eiropas Kopienu Personāla atlases birojs
+            url: https://epso.europa.eu/home_lv
+        title: ES iestādes
+      social_media:
+        items:
+          search_channels:
+            label: ES sociālajos tīklos
+            url: https://europa.eu/european-union/contact/social-networks_lv
+        title: Atrast sociālo tīklu kontu
+    footer_menu:
+      organization: Konference par Eiropas nākotni

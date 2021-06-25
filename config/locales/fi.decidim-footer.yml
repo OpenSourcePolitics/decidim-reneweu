@@ -1,0 +1,80 @@
+---
+fi:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Tietoa sivustosta
+          cookies: Evästeet
+          language_policy: Kielipolitiikka
+          legal_notice: Oikeudellinen huomautus
+          sitemap: Sivukartta
+      contact_the_eu:
+        items:
+          call_us: Soita numeroon <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Lähetä viesti <a href="https://europa.eu/european-union/contact/write-to-us_fi">yhteydenottolomakkeella</a>
+          meet_us: Käy EU:n <a href="https://europa.eu/european-union/contact/meet-us_fi">tiedotuspisteessä</a>
+          other_telephone: Käytä muita <a href="https://europa.eu/european-union/contact/call-us_fi">soittomahdollisuuksia</a>
+        title: Ota yhteyttä EU:hun
+      eu_institution:
+        items:
+          agencies:
+            label: Erillisvirastot
+            url: https://europa.eu/european-union/about-eu/agencies_fi
+          central_bank:
+            label: Euroopan keskuspankki (EKP)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.fi.html
+          commission:
+            label: Euroopan komissio
+            url: https://ec.europa.eu/commission/index_fi
+          council:
+            label: Eurooppa-neuvosto
+            url: http://www.consilium.europa.eu/fi/european-council/
+          council_eu:
+            label: Euroopan unionin neuvosto
+            url: http://www.consilium.europa.eu/fi/home/
+          court_of_auditors:
+            label: Euroopan tilintarkastustuomioistuin
+            url: http://www.eca.europa.eu/fi
+          court_of_justice:
+            label: Euroopan unionin tuomioistuin
+            url: http://curia.europa.eu/jcms/jcms/j_6/fi/
+          data_protection_supervisor:
+            label: Euroopan tietosuojavaltuutettu
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=fi
+          dpb:
+            label: Euroopan tietosuojaneuvosto
+            url: https://edpb.europa.eu/edpb_fi
+          economic_social_committee:
+            label: Euroopan talous- ja sosiaalikomitea (ETSK)
+            url: http://www.eesc.europa.eu/?i=portal.fi.home
+          eu_regional_comittee:
+            label: Euroopan alueiden komitea (AK)
+            url: http://cor.europa.eu/fi/
+          external_action_service:
+            label: Euroopan ulkosuhdehallinto
+            url: http://eeas.europa.eu/index_fi.htm
+          investment_bank:
+            label: Euroopan investointipankki (EIP)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Euroopan oikeusasiamies
+            url: https://www.ombudsman.europa.eu/fi/home
+          parliament:
+            label: Euroopan parlamentti
+            url: http://www.europarl.europa.eu/portal/fi
+          pou:
+            label: Euroopan unionin julkaisutoimisto
+            url: https://op.europa.eu/fi/home
+          pso:
+            label: Europees Bureau voor personeelsselectie
+            url: https://epso.europa.eu/home_fi
+        title: EU:n toimielimet
+      social_media:
+        items:
+          search_channels:
+            label: EU sosiaalisessa mediassa
+            url: https://europa.eu/european-union/contact/social-networks_fi
+        title: Sosiaalinen media
+    footer_menu:
+      organization: Euroopan tulevaisuus-konferenssi

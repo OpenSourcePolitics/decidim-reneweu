@@ -1,0 +1,80 @@
+---
+ro:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Despre site
+          cookies: Cookie-urile
+          language_policy: Politica lingvistică
+          legal_notice: Aviz juridic
+          sitemap: Hartă site
+      contact_the_eu:
+        items:
+          call_us: Apelați numărul <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Scrieți-ne completând <a href="https://europa.eu/european-union/contact/write-to-us_ro">formularul de contact</a>
+          meet_us: Veniți într-un birou <a href="https://europa.eu/european-union/contact/meet-us_ro">local al UE</a>
+          other_telephone: Utilizați alte <a href="https://europa.eu/european-union/contact/call-us_ro">opțiuni telefonice</a>
+        title: Contactați UE
+      eu_institution:
+        items:
+          agencies:
+            label: Agenţii
+            url: https://europa.eu/european-union/about-eu/agencies_ro
+          central_bank:
+            label: Banca Centrală Europeană (BCE)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.ro.html
+          commission:
+            label: Comisia Europeană
+            url: http://ec.europa.eu/index_ro.htm
+          council:
+            label: Consiliul European
+            url: http://www.consilium.europa.eu/ro/european-council/
+          council_eu:
+            label: Consiliul Uniunii Europene
+            url: http://www.consilium.europa.eu/ro/home/
+          court_of_auditors:
+            label: Curtea Europeană de Conturi
+            url: http://www.eca.europa.eu/ro
+          court_of_justice:
+            label: Curtea de Justiție a Uniunii Europene (CJUE)
+            url: http://curia.europa.eu/jcms/jcms/j_6/ro/
+          data_protection_supervisor:
+            label: Autoritatea Europeană pentru Protecția Datelor (AEPD)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=ro
+          dpb:
+            label: Comitetul european pentru protecția datelor
+            url: https://edpb.europa.eu/edpb_ro
+          economic_social_committee:
+            label: Comitetul Economic și Social European (CESE)
+            url: http://www.eesc.europa.eu/?i=portal.ro.home
+          eu_regional_comittee:
+            label: Comitetul European al Regiunilor (CoR)
+            url: http://cor.europa.eu/ro/
+          external_action_service:
+            label: Serviciul European de Acțiune Externă (SEAE)
+            url: http://eeas.europa.eu/index_ro.htm
+          investment_bank:
+            label: Banca Europeană de Investiții (BEI)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Ombudsmanul European
+            url: https://www.ombudsman.europa.eu/ro/home
+          parliament:
+            label: Parlamentul European
+            url: http://www.europarl.europa.eu/portal/ro
+          pou:
+            label: Oficiul pentru Publicații al Uniunii Europene
+            url: https://op.europa.eu/ro/home
+          pso:
+            label: Oficiul European pentru Selecţia Personalului
+            url: https://epso.europa.eu/home_ro
+        title: Instituțiile UE
+      social_media:
+        items:
+          search_channels:
+            label: Căutați canalele UE pe rețelele sociale
+            url: https://europa.eu/european-union/contact/social-networks_ro
+        title: Găsiți un cont pe platformele de comunicare socială
+    footer_menu:
+      organization: Conferinţa privind Viitorul Europei

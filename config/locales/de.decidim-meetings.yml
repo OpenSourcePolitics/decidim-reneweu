@@ -1,0 +1,533 @@
+---
+de:
+  activemodel:
+    attributes:
+      agenda:
+        description: Beschreibung
+        duration: Dauer
+        title: Titel
+      close_meeting:
+        attendees_count: Anzahl der Teilnehmer
+        attending_organizations: Liste der teilnehmenden Organisationen
+        closing_report: Veranstaltung beenden
+        contributions_count: Anzahl der Beiträge
+        proposal_ids: In der Sitzung erstellte Vorschläge
+      meeting:
+        address: Anschrift
+        available_slots: Verfügbare Slots für diese Sitzung
+        decidim_category_id: Kategorie
+        decidim_scope_id: Reichweite
+        decidim_user_group_id: Benutzergruppe
+        description: Beschreibung
+        end_time: Ende
+        location: Ort
+        location_hints: Hinweise zum Standort
+        organizer_gid: Erstellen als
+        organizer_id: Organisator
+        private_meeting: Private Sitzung
+        registration_form_enabled: Anmeldungsformular aktiviert
+        registration_terms: Anmeldungsbedingungen
+        registration_type: Art der Anmeldung
+        registrations_enabled: Anmeldungen aktiviert
+        start_time: Startzeit
+        title: Titel
+        transparent: Transparent
+        type_of_meeting: Typ
+      minutes:
+        audio_url: Audio-URL
+        description: Beschreibung
+        video_url: Video-URL
+        visible: Ist sichtbar
+    errors:
+      models:
+        form:
+          attributes:
+            description:
+              blank: Bitte geben Sie einen Wert ein.
+        meeting:
+          attributes:
+            address:
+              invalid: Adresse ist ungültig. Bitte geben Sie eine Postleitzahl und ein Land an.
+            cofe_charter:
+              accepted: Bitte stimmen Sie den obigen Bedingungen zu
+        meeting_agenda:
+          attributes:
+            base:
+              too_many_minutes: Die Dauer der Tagesordnungspunkte übersteigt die Sitzungsdauer um %{count} Minuten
+              too_many_minutes_child: Die Dauer der untergeordneten Tagesordnungspunkte übersteigt die Dauer des übergeordneten Tagesordnungspunkts "%{parent_title}" um %{count} Minuten
+        meeting_registration_invite:
+          attributes:
+            email:
+              already_invited: Diese E-Mail-Adresse wurde bereits eingeladen.
+    models:
+      decidim/meetings/close_meeting_event: Sitzung beendet
+      decidim/meetings/create_meeting_event: Sitzung
+      decidim/meetings/meeting_registrations_enabled_event: Anmeldungen aktiviert
+      decidim/meetings/meeting_registrations_over_percentage_event: Anmeldungen über dem Limit
+      decidim/meetings/upcoming_meeting_event: Anstehende Sitzung
+      decidim/meetings/update_meeting_event: Sitzung aktualisiert
+  activerecord:
+    models:
+      decidim/meetings/meeting:
+        one: Veranstaltung
+        other: Veranstaltungen
+      decidim/meetings/minutes:
+        one: Protokoll
+        other: Protokoll
+      decidim/meetings/registration:
+        one: Anmeldung
+        other: Anmeldungen
+  decidim:
+    admin:
+      meeting_copies:
+        create:
+          error: Beim Duplizieren dieser Sitzung ist ein Problem aufgetreten.
+          success: Sitzung erfolgreich dupliziert.
+        new:
+          copy: Kopie
+          select: Wählen Sie aus, welche Daten Sie duplizieren möchten
+          title: Sitzung duplizieren
+    components:
+      meetings:
+        actions:
+          join: Beitreten
+        name: Sitzungen
+        settings:
+          global:
+            announcement: Bekanntmachung
+            comments_enabled: Kommentare aktiviert
+            comments_max_length: Maximale Länge des Kommentars (0 als Standardwert unverändert lassen)
+            creation_enabled_for_participants: Teilnehmer können Sitzungen erstellen
+            default_registration_terms: Standardanmeldungsbedingungen
+            enable_pads_creation: Erstellung von Blöcken aktivieren
+            resources_permissions_enabled: Aktionsautorisierungen können für jede Sitzung festgelegt werden
+          step:
+            announcement: Bekanntmachung
+            comments_blocked: Kommentare deaktiviert
+            creation_enabled_for_participants: Sitzungserstellung durch Teilnehmer aktiviert
+            creation_enabled_for_user_groups: Sitzungserstellung durch Benutzergruppen aktiviert
+    events:
+      meetings:
+        meeting_closed:
+          affected_user:
+            email_intro: 'Ihre Veranstaltung „%{resource_title}“ wurde beendet. Sie können die Schlussfolgerungen auf der Seite der Veranstaltung lesen:'
+            email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie die Veranstaltung „{%resource_title}“ organisiert haben.
+            email_subject: Die Veranstaltung "%{resource_title}" wurde beendet
+            notification_title: Die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> wurde beendet.
+          follower:
+            email_intro: 'Die Veranstaltung „%{resource_title}“ wurde beendet. Sie können die Schlussfolgerungen auf der Seite der Veranstaltung lesen:'
+            email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung „{%resource_title}“ folgen. Wenn Sie der Veranstaltung nicht mehr folgen möchten, klicken Sie auf den vorstehenden Link.
+            email_subject: Die Veranstaltung „%{resource_title}“ wurde beendet
+            notification_title: Die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> wurde beendet.
+        meeting_created:
+          email_intro: Die Veranstaltung „%{resource_title}“ wurde im Bereich „%{participatory_space_title}“, dem Sie folgen, hinzugefügt.
+          email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie "%{participatory_space_title}" folgen. Sie können sich über den vorstehenden Link abmelden.
+          email_subject: Eine neue Veranstaltung wurde im Bereich %{participatory_space_title} hinzugefügt
+          notification_title: Die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> wurde im Bereich %{participatory_space_title} hinzugefügt
+        meeting_registration_confirmed:
+          notification_title: Ihre Anmeldung für die Veranstaltung <a href="%{resource_url}">%{resource_title}</a> wurde bestätigt. Ihr Anmeldungscode ist %{registration_code}.
+        meeting_registrations_over_percentage:
+          email_intro: Für die Veranstaltung „%{resource_title}“ wurden bereits über %{percentage}% der Plätze vergeben.
+          email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie ein Administrator im Beteiligungsbereich der Veranstaltung sind.
+          email_subject: Für die Veranstaltung „%{resource_title}“ wurden bereits über %{percentage}% der Plätze vergeben
+          notification_title: Für die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> wurden bereits über %{percentage}% der Plätze vergeben.
+        meeting_updated:
+          email_intro: 'Die Veranstaltung „%{resource_title}“ wurde aktualisiert. Sie können die neue Version auf der Seite der Veranstaltung lesen:'
+          email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung „{%resource_title}“ folgen. Wenn Sie der Veranstaltung nicht mehr folgen möchten, klicken Sie auf den vorstehenden Link.
+          email_subject: Die Veranstaltung „%{resource_title}“ wurde aktualisiert
+          notification_title: Die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> wurde aktualisiert.
+        registration_code_validated:
+          email_intro: Ihr Anmeldungscode "%{registration_code}" für die Sitzung "%{resource_title}" wurde validiert.
+          email_outro: Sie haben diese Benachrichtigung erhalten, weil Ihr Anmeldungscode für die "%{resource_title}" Sitzung validiert wurde.
+          email_subject: Ihr Anmeldungscode "%{registration_code}" für die Sitzung "%{resource_title}" wurde validiert
+          notification_title: Ihr Anmeldungscode "%{registration_code}" für die Sitzung <a href="%{resource_path}">%{resource_title}</a> wurde validiert.
+        registrations_enabled:
+          email_intro: 'Für die Veranstaltung „{%resource_title}“ sind nun Anmeldungen möglich. Sie können sich auf der Seite der Veranstaltung anmelden:'
+          email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung „{%resource_title}“ folgen. Wenn Sie der Veranstaltung nicht mehr folgen möchten, klicken Sie auf den vorstehenden Link.
+          email_subject: Für die Veranstaltung „{%resource_title}“ sind nun Anmeldungen möglich.
+          notification_title: Für die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> sind nun Anmeldungen möglich.
+        upcoming_meeting:
+          email_intro: Die Veranstaltung „%{resource_title}“ beginnt in weniger als 48 Stunden.
+          email_outro: Sie haben diese Benachrichtigung erhalten, weil Sie der Veranstaltung „{%resource_title}“ folgen. Wenn Sie der Veranstaltung nicht mehr folgen möchten, klicken Sie auf den vorstehenden Link.
+          email_subject: Die Veranstaltung „%{resource_title}“ beginnt in weniger als 48 Stunden.
+          notification_title: Die Veranstaltung <a href="%{resource_path}">%{resource_title}</a> beginnt in weniger als 48 Stunden.
+    forms:
+      errors:
+        meeting:
+          address: Bitte geben Sie einen Wert ein.
+          end_time: Bitte geben Sie ein Datum an.
+          location: Bitte geben Sie einen Wert ein.
+          registration_type: Bitte wählen Sie eine Option aus.
+          start_time: Bitte geben Sie ein Datum an.
+          title: Bitte geben Sie einen Wert ein.
+          type_of_meeting: Bitte wählen Sie eine Option aus.
+    gamification:
+      badges:
+        attended_meetings:
+          conditions: Melden Sie sich für die Sitzungen an, an denen Sie teilnehmen möchten
+          description: Dieses Abzeichen wird verliehen, wenn Sie an mehreren persönlichen Sitzungen teilnehmen.
+          description_another: Dieser Teilnehmer hat %{score} Sitzungen besucht.
+          description_own: Sie haben %{score} Sitzungen besucht.
+          name: Besuchte Sitzungen
+          next_level_in: Besuchen Sie %{score} Sitzung mehr, um das nächste Niveau zu erreichen!
+          unearned_another: Dieser Teilnehmer hat bisher noch an keiner Sitzung teilgenommen.
+          unearned_own: Sie haben noch an keiner Sitzung teilgenommen.
+    meetings:
+      actions:
+        agenda: Tagesordnung
+        attachment_collections: Ordner
+        attachments: Anlagen
+        close: Schließen
+        confirm_destroy: Sind Sie sicher, dass Sie diese Sitzung löschen möchten?
+        destroy: Löschen
+        edit: Bearbeiten
+        invalid_destroy:
+          proposals_count:
+            one: 'Die Sitzung kann nicht gelöscht werden, weil %{count} Vorschlag damit verbunden ist:'
+            other: 'Die Sitzung kann nicht gelöscht werden, weil %{count} Vorschläge damit verbunden sind:'
+        minutes: Protokoll
+        new: Neue Sitzung
+        preview: Vorschau
+        registrations: Anmeldungen
+        title: Aktionen
+      admin:
+        agenda:
+          agenda_item:
+            add_agenda_item_child: Unterpunkt der Tagesordnung hinzufügen
+            agenda_item: Tagesordnungspunkt
+            agenda_item_children: Unterpunkte der Tagesordnung
+            down: Herunter
+            remove: Entfernen
+            up: Hoch
+          agenda_item_child:
+            agenda_item_child: Unterpunkt der Tagesordnung
+            down: Herunter
+            remove: Entfernen
+            up: Hoch
+          create:
+            invalid: Beim Erstellen dieser Tagesordnung ist ein Problem aufgetreten
+            success: Tagesordnung erfolgreich erstellt
+          edit:
+            title: Tagesordnung bearbeiten
+            update: Aktualisieren
+          form:
+            add_agenda_item: Tagesordnungspunkt hinzufügen
+            agenda_items: Tagesordnungspunkte
+            end_date: Enddatum
+            start_date: Anfangsdatum
+          new:
+            create: Erstellen
+            title: Neue Tagesordnung
+          update:
+            invalid: Bei der Aktualisierung dieser Tagesordnung ist ein Problem aufgetreten
+            success: Tagesordnung erfolgreich aktualisiert
+        exports:
+          meetings: Sitzungen
+          registrations: Anmeldungen
+        invite_join_meeting_mailer:
+          invite:
+            decline: Einladung ablehnen
+            invited_you_to_join_a_meeting: "%{invited_by} hat Sie zu einer Sitzung auf %{application} eingeladen. Sie können diese über die untenstehenden Links ablehnen oder annehmen."
+            join: Nehmen Sie an ‘%{meeting_title}‘ teil
+        invites:
+          create:
+            error: Bei der Einladung dieses Teilnehmers zur Sitzung ist ein Problem aufgetreten.
+            success: Teilnehmer erfolgreich zur Teilnahme an der Sitzung eingeladen.
+          form:
+            attendee_type: Art von Teilnehmer
+            existing_user: Bestehender Teilnehmer
+            invite: Einladen
+            invite_explanation: Der Teilnehmer wird zur Teilnahme an der Sitzung sowie zur Organisation eingeladen.
+            non_user: Nichtbestehender Teilnehmer
+            select_user: Teilnehmer auswählen
+          index:
+            filter:
+              accepted: Angenommen
+              all: Alle
+              rejected: Abgelehnt
+              sent: Gesendet
+            filter_by: Filtern nach
+            invite_attendee: Teilnehmer einladen
+            invites: Lädt ein
+            registrations_disabled: Sie können keinen Teilnehmer einladen, da die Anmeldungen deaktiviert sind.
+            search: Suche
+        meeting_closes:
+          edit:
+            close: Schließen
+            title: Sitzung beenden
+        meetings:
+          close:
+            invalid: Beim Beenden der Sitzung ist ein Problem aufgetreten
+            success: Sitzung erfolgreich beendet
+          create:
+            invalid: Bei der Erstellung dieser Sitzung ist ein Problem aufgetreten.
+            success: Sitzung erfolgreich erstellt
+          destroy:
+            invalid:
+              proposals_count:
+                one: Die Sitzung kann nicht gelöscht werden, weil %{count} Vorschlag damit verbunden ist
+                other: Die Sitzung kann nicht gelöscht werden, weil %{count} Vorschläge damit verbunden sind
+            success: Sitzung erfolgreich gelöscht
+          edit:
+            update: Aktualisieren
+          form:
+            address_help: 'Anschrift: wird vom Geocoder verwendet, um den Standort zu finden'
+            location_help: 'Treffpunkt: an die Benutzer gerichtete Nachricht mit dem Treffpunkt'
+            location_hints_help: 'Hinweise zum Standort: zusätzliche Informationen. Beispiel: das Stockwerk im Gebäude'
+          index:
+            title: Sitzungen
+          new:
+            create: Ihre Veranstaltung veröffentlichen
+            title: Sitzung erstellen
+          service:
+            description: Beschreibung
+            down: Herunter
+            remove: Entfernen
+            service: Dienst
+            title: Titel
+            up: Hoch
+          services:
+            add_service: Dienst hinzufügen
+            services: Dienste
+          update:
+            invalid: Bei der Aktualisierung dieser Sitzung ist ein Problem aufgetreten
+            success: Sitzung erfolgreich aktualisiert
+        minutes:
+          create:
+            invalid: Beim Erstellen dieses Protokolls ist ein Problem aufgetreten
+            success: Protokoll erfolgreich erstellt
+          edit:
+            update: Aktualisieren
+          new:
+            create: Erstellen
+            title: Protokoll erstellen
+          update:
+            invalid: Bei der Aktualisierung dieses Protokolls ist ein Problem aufgetreten
+            success: Protokoll erfolgreich aktualisiert
+        models:
+          meeting:
+            name: Sitzung
+        registrations:
+          edit:
+            save: Speichern
+            validate: Validieren
+            validate_registration_code: Anmeldungscode validieren
+          form:
+            available_slots_help: Belassen Sie es bei 0, wenn Sie unbegrenzt Slots zur Verfügung haben.
+            invites: Einladungen
+            recommendation_message: Aus Datenschutzgründen empfehlen wir Ihnen, dieses Anmeldeformular zu löschen, wenn Sie es nicht mehr benötigen. Standardmäßig geschieht dies 3 Monate nach Ende der Sitzung.
+            registration_form: Anmeldungsformular
+            registrations_count:
+              one: Es gibt %{count} Anmeldung.
+              other: Es haben %{count} Anmeldungen stattgefunden.
+            reserved_slots_help: Belassen Sie es bei 0, wenn Sie keine reservierten Slots zur Verfügung haben.
+            reserved_slots_less_than: Muss kleiner oder gleich %{count} sein
+            title: Anmeldungen
+          update:
+            invalid: Beim Speichern der Einstellungen der Anmeldung ist ein Problem aufgetreten.
+            success: Einstellungen der Anmeldung zur Sitzung erfolgreich gespeichert.
+          validate_registration_code:
+            invalid: Dieser Anmeldungscode ist ungültig.
+            success: Anmeldungscode erfolgreich validiert.
+      admin_log:
+        invite:
+          create: "%{user_name} hat %{attendee_name} zur Teilnahme an der %{resource_name} Sitzung im %{space_name} Bereich eingeladen"
+          deleted: "%{user_name} hat %{attendee_name} von Teilnahme an der %{resource_name} Sitzung im %{space_name} Bereich ausgeladen"
+          update: "%{user_name} hat %{attendee_name} zur Teilnahme an der %{resource_name} Sitzung im %{space_name} Bereich eingeladen"
+        meeting:
+          close: "%{user_name} hat die %{resource_name} Sitzung im %{space_name} Bereich beendet"
+          create: "%{user_name} hat die %{resource_name} Sitzung im %{space_name} Bereich erstellt"
+          delete: "%{user_name} hat die %{resource_name} Sitzung im %{space_name} Bereich gelöscht"
+          export_registrations: "%{user_name} hat die Anmeldungen zur %{resource_name} Sitzung im %{space_name} Bereich exportiert"
+          update: "%{user_name} hat die %{resource_name} Sitzung im %{space_name} Bereich aktualisiert"
+          value_types:
+            organizer_presenter:
+              not_found: 'Der Organisator wurde in der Datenbank (ID: %{id}) nicht gefunden'
+        minutes:
+          create: "%{user_name} hat das Protokoll der %{resource_name} Sitzung im %{space_name} Bereich erstellt"
+          update: "%{user_name} hat das Protokoll der Sitzung %{resource_name} im %{space_name} Bereich aktualisiert"
+      calendar_modal:
+        calendar_url: Kalender-URL
+        close_window: Fenster schließen
+        export_calendar: Kalender exportieren
+      conference_venues: Konferenzveranstaltungsorte
+      content_blocks:
+        upcoming_events:
+          name: Frühere Veranstaltungen
+          upcoming_events: Anstehende Veranstaltungen
+          view_all_events: Alle anzeigen
+      directory:
+        meetings:
+          index:
+            all: Alle
+            date: Datum
+            meetings: Veranstaltungen die gerade statt finden
+            past: Vergangene
+            search: Suche
+            space_type: Beteiligungsbereich
+            upcoming: Geplante
+      last_activity:
+        new_meeting_at_html: Neue Veranstaltung
+      mailer:
+        invite_join_meeting_mailer:
+          invite:
+            subject: Einladung zur Teilnahme an einer Sitzung
+        registration_mailer:
+          confirmation:
+            subject: Ihre Anmeldung zur Veranstaltung wurde bestätigt
+      meeting:
+        not_allowed: Es ist Ihnen nicht gestattet, diese Sitzung zu sehen
+      meetings:
+        count:
+          meetings_count:
+            one: "%{count} Veranstaltung"
+            other: "%{count} Veranstaltungen"
+        create:
+          invalid: Bei der Erstellung dieser Veranstaltung ist ein Problem aufgetreten.
+          success: Sie haben die Veranstaltung erfolgreich erstellt.
+        edit:
+          back: Zurück
+          title: Ihre Sitzung bearbeiten
+          update: Aktualisieren
+        filters:
+          category: Kategorie
+          date: Datum
+          date_values:
+            all: Alle
+            past: Vergangene
+            upcoming: Geplante
+          origin: Ursprung
+          origin_values:
+            all: Veranstaltet von
+            citizens: Sonstige
+            official: Mitgliedstaaten & EU-Institutionen
+            user_groups: Gruppen
+          scope: Reichweite
+          search: Suche
+        filters_small_view:
+          close_modal: Fenster schließen
+          filter: Filter
+          filter_by: Filtern nach
+          unfold: Aufklappen
+        form:
+          address_help: 'Sie müssen – auch bei Online-Veranstaltungen – eine Postanschrift angeben, damit Ihre Veranstaltung auf der Karte erscheint. Die Angabe der Postleitzahl und des Landes reicht aus. Beispiel: „Rue de la Loi 200, 1000 Brüssel, Belgien“.'
+          create_as: Veranstaltung erstellen als
+          location_help: 'Sie müssen Angaben dazu machen, wo die Veranstaltung stattfindet. Beispiel: „Sitzungssaal Jean Monnet“, „Videokonferenz-Link“.'
+          location_hints_help: 'Sie können nähere Angaben zur Anfahrt machen. Beispiel: „Nehmen Sie die U-Bahn-Linie 5 bis zur Haltestelle Schuman“.'
+          online_meeting_url_help: Sie müssen einen Link zu einer detaillierteren Beschreibung Ihrer Veranstaltung oder einen Videokonferenz-Link zu Ihrer Veranstaltung angeben. Ihr Link muss mit den Zeichen https:// beginnen.
+          registration_type_help: Sie können für Ihre Veranstaltung ein externes Anmeldesystem verwenden.
+          registration_url_help: Sie müssen den Link zu Ihrem Anmeldesystem angeben. Vergessen Sie nicht, http:// oder https:// an den Anfang Ihres Links zu setzen.
+          select_a_category: Bitte wählen Sie eine Kategorie aus
+        index:
+          new_meeting: Neue Veranstaltung
+        meeting_minutes:
+          meeting_minutes: Sitzungsprotokoll
+          related_information: Spezifische Angaben
+        meetings:
+          no_meetings_warning: Keine Veranstaltungen entsprechen Ihren Suchkriterien oder es sind keine Veranstaltungen geplant.
+          upcoming_meetings_warning: Derzeit sind keine Veranstaltungen geplant, aber hier finden Sie eine Liste aller früheren Veranstaltungen.
+        new:
+          back: Zurück
+          create: Erstellen
+          title: Erstellen Sie Ihre Veranstaltung
+        registration_confirm:
+          cancel: Annullieren
+          confirm: Bestätigen
+        show:
+          attendees: Anzahl der Teilnehmer
+          back: Zurück zur Liste
+          contributions: Anzahl der Beiträge
+          date: Datum
+          edit_meeting: Veranstaltung bearbeiten
+          going: Läuft
+          join: An der Veranstaltung teilnehmen
+          meeting_report: Sitzungsbericht
+          no_slots_available: Keine Slots verfügbar
+          organizations: Teilnehmende Organisationen
+          registration_code_help_text: Ihr Anmeldungscode
+          registration_state:
+            validated: VALIDIERT
+            validation_pending: VALIDIERUNG NOCH NICHT ABGESCHLOSSEN
+          remaining_slots:
+            one: "%{count} verbleibender Slot"
+            other: "%{count} verbleibende Slots"
+          view: Anzeigen
+        update:
+          invalid: Bei der Aktualisierung der Sitzung ist ein Problem aufgetreten.
+          success: Sie haben die Sitzung erfolgreich aktualisiert.
+      meetings_map:
+        view_meeting: Veranstaltung anzeigen
+      models:
+        invite:
+          fields:
+            email: E-Mail
+            name: Name
+            sent_at: Versendet am
+            status: Status
+          status:
+            accepted: Angenommen (%{at})
+            rejected: Abgelehnt (%{at})
+            sent: Gesendet
+        meeting:
+          fields:
+            closed: Beendet
+            end_time: Enddatum
+            map: Karte
+            official_meeting: Mitgliedstaaten & EU-Institutionen
+            start_time: Anfangsdatum
+            title: Titel
+      read_more: "(mehr dazu)"
+      registration_mailer:
+        confirmation:
+          confirmed_html: Ihre Anmeldung zur Veranstaltung <a href="%{url}">%{title}</a> wurde bestätigt.
+          details: Die Einzelheiten zur Veranstaltung finden Sie im Anhang.
+          registration_code: Ihr Anmeldungscode ist %{code}.
+      registrations:
+        create:
+          invalid: Beim Beitritt zu dieser Sitzung ist ein Problem aufgetreten.
+          success: Sie sind der Veranstaltung erfolgreich beigetreten. Da Sie sich für diese Veranstaltung angemeldet haben, werden Sie benachrichtigt, wenn es Aktualisierungen gibt.
+        decline_invitation:
+          invalid: Bei der Ablehnung der Einladung ist ein Problem aufgetreten.
+          success: Sie haben die Einladung erfolgreich abgelehnt.
+        destroy:
+          invalid: Beim Verlassen dieser Sitzung ist ein Problem aufgetreten.
+          success: Sie haben die Sitzung erfolgreich verlassen.
+      types:
+        private_meeting: Private Sitzung
+        transparent: Transparent
+      versions:
+        back_to_resource: Zurück zur Sitzung
+    metrics:
+      meetings:
+        description: Anzahl der erstellten Sitzungen
+        object: Sitzungen
+        title: Sitzungen
+    participatory_processes:
+      participatory_process_groups:
+        highlighted_meetings:
+          past_meetings: Frühere Sitzungen
+          upcoming_meetings: Anstehende Sitzungen
+    participatory_spaces:
+      highlighted_meetings:
+        past_meetings: Vergangene Sitzungen
+        see_all: Alle Veranstaltungen sehen (%{count})
+        upcoming_meetings: Anstehende Veranstaltungen
+      upcoming_meeting_for_card:
+        upcoming_meeting: Anstehende Sitzung
+    resource_links:
+      meetings_through_proposals:
+        meeting_result: 'Verbundene Ergebnisse:'
+        result_meeting: Zugehörige Veranstaltungen
+      proposals_from_meeting:
+        meeting_proposal: Zugehörige Ideen
+        proposal_meeting: Zugehörige Veranstaltungen
+  devise:
+    mailer:
+      join_meeting:
+        subject: Einladung zur Teilnahme an einer Sitzung
+  errors:
+    messages:
+      after: Bitte wählen Sie ein Datum nach dem %{date} aus.
+      after_or_equal_to: Bitte wählen Sie ein Datum ab dem %{date} aus.
+      before: Bitte wählen Sie ein Datum vor dem %{date} aus.
+      before_or_equal_to: Bitte wählen Sie ein Datum bis einschließlich %{date} aus.

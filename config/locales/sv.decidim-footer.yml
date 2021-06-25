@@ -1,0 +1,80 @@
+---
+sv:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Om webbplatsen
+          cookies: Kakor (cookies)
+          language_policy: Språkpolicy
+          legal_notice: Rättsligt meddelande
+          sitemap: Översikt
+      contact_the_eu:
+        items:
+          call_us: Ring <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Skriv till oss via <a href="https://europa.eu/european-union/contact/write-to-us_sv">kontaktformuläret</a>
+          meet_us: Besök ett <a href="https://europa.eu/european-union/contact/meet-us_sv">lokalt EU-kontor</a>
+          other_telephone: Använd andra <a href="https://europa.eu/european-union/contact/call-us_sv">telefonalternativ</a>
+        title: Kontakta EU
+      eu_institution:
+        items:
+          agencies:
+            label: Byråer
+            url: https://europa.eu/european-union/about-eu/agencies_sv
+          central_bank:
+            label: Europeiska centralbanken
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.sv.html
+          commission:
+            label: Europeiska kommissionen
+            url: http://ec.europa.eu/index_sv.htm
+          council:
+            label: Europeiska rådet
+            url: http://www.consilium.europa.eu/sv/european-council/
+          council_eu:
+            label: Europeiska unionens råd
+            url: http://www.consilium.europa.eu/sv/home/
+          court_of_auditors:
+            label: Europeiska revisionsrätten
+            url: http://www.eca.europa.eu/sv
+          court_of_justice:
+            label: EU-domstolen
+            url: http://curia.europa.eu/jcms/jcms/j_6/sv/
+          data_protection_supervisor:
+            label: Europeiska datatillsynsmannen
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=sv
+          dpb:
+            label: Europeiska dataskyddsstyrelsen
+            url: https://edpb.europa.eu/edpb_sv
+          economic_social_committee:
+            label: Europeiska ekonomiska och sociala kommittén
+            url: http://www.eesc.europa.eu/?i=portal.sv.home
+          eu_regional_comittee:
+            label: Europeiska regionkommittén
+            url: http://cor.europa.eu/sv/
+          external_action_service:
+            label: Europeiska utrikestjänsten
+            url: https://eeas.europa.eu/headquarters/headquarters-homepage_en
+          investment_bank:
+            label: Europeiska investeringsbanken
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Europeiska ombudsmannen
+            url: https://www.ombudsman.europa.eu/sv/home
+          parliament:
+            label: Europaparlamentet
+            url: http://www.europarl.europa.eu/portal/sv
+          pou:
+            label: Europeiska unionens publikationsbyrå
+            url: https://op.europa.eu/sv/home
+          pso:
+            label: Europeiska byrån för uttagningsprov för rekrytering av personal
+            url: https://epso.europa.eu/home_sv
+        title: EU-institutionerna
+      social_media:
+        items:
+          search_channels:
+            label: Hitta oss i sociala medier
+            url: https://europa.eu/european-union/contact/social-networks_sv
+        title: Hitta ett EU konto på sociala medier
+    footer_menu:
+      organization: Konferensen om Europas framtid

@@ -1,0 +1,80 @@
+---
+de:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: Über diese Website
+          cookies: Cookies
+          language_policy: Sprachenpolitik
+          legal_notice: Rechtlicher Hinweis
+          sitemap: Wegweiser
+      contact_the_eu:
+        items:
+          call_us: Rufen Sie uns an unter <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: 'Schreiben Sie uns: <a href="https://europa.eu/european-union/contact/write-to-us_de">Kontaktformular</a>'
+          meet_us: Kommen Sie in einem unserer <a href="https://europa.eu/european-union/contact/meet-us_de">EU-Büros vor Ort</a> vorbei
+          other_telephone: Rufen Sie uns unter <a href="https://europa.eu/european-union/contact/call-us_de">einer anderen Nummer an</a>
+        title: Kontakt
+      eu_institution:
+        items:
+          agencies:
+            label: Agenturen
+            url: https://europa.eu/european-union/about-eu/agencies_de
+          central_bank:
+            label: Europäische Zentralbank (EZB)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.de.html
+          commission:
+            label: Europäische Kommission
+            url: https://ec.europa.eu/commission/index_de
+          council:
+            label: Europäischer Rat
+            url: http://www.consilium.europa.eu/de/european-council/
+          council_eu:
+            label: Rat der Europäischen Union
+            url: http://www.consilium.europa.eu/de/home/
+          court_of_auditors:
+            label: Europäischer Rechnungshof
+            url: http://www.eca.europa.eu/de
+          court_of_justice:
+            label: Gerichtshof der Europäischen Union (EuGH)
+            url: http://curia.europa.eu/jcms/jcms/j_6/de/
+          data_protection_supervisor:
+            label: Europäischer Datenschutzbeauftragter (EDSB)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=de
+          dpb:
+            label: Der Europäische Datenschutzausschuss
+            url: https://edpb.europa.eu/edpb_de
+          economic_social_committee:
+            label: Europäischer Wirtschafts- und Sozialausschuss (EWSA)
+            url: http://www.eesc.europa.eu/?i=portal.de.home
+          eu_regional_comittee:
+            label: Europäischer Ausschuss der Regionen (AdR)
+            url: https://cor.europa.eu/de
+          external_action_service:
+            label: Europäischer Auswärtiger Dienst (EAD)
+            url: http://eeas.europa.eu/index_de.htm
+          investment_bank:
+            label: Europäische Investitionsbank (EIB)
+            url: https://www.eib.org/de/index.htm
+          ombudsman:
+            label: Europäischer Bürgerbeauftragter
+            url: https://www.ombudsman.europa.eu/de/home
+          parliament:
+            label: Europäisches Parlament
+            url: http://www.europarl.europa.eu/portal/de
+          pou:
+            label: Amt für Veröffentlichungen der Europäischen Union
+            url: https://op.europa.eu/de/home
+          pso:
+            label: Europäisches Amt für Personalauswahl
+            url: https://epso.europa.eu/home_de
+        title: EU-Institutionen
+      social_media:
+        items:
+          search_channels:
+            label: EU in den sozialen Medien
+            url: https://europa.eu/european-union/contact/social-networks_de
+        title: Die EU in den sozialen Medien
+    footer_menu:
+      organization: Konferenz zur Zukunft Europas

@@ -1,0 +1,199 @@
+---
+sk:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Nápady
+      constraint:
+        subject_id: Téma
+      meeting:
+        cofe_charter_html: Súhlasím s <a href="%{url}" target="_blank">chartou</a> Konferencie o budúcnosti Európy.
+        online_meeting_url: URL online stretnutia
+        registration_url: URL registrácie
+      user:
+        language_preference: Preferencia jazyka
+        user_name: Používateľské meno
+  date:
+    abbr_month_names:
+    - 
+    - jan.
+    - feb.
+    - mar.
+    - apr.
+    - máj
+    - jún
+    - júl
+    - aug.
+    - sep.
+    - okt.
+    - nov.
+    - dec.
+    month_names:
+    - 
+    - január
+    - február
+    - marec
+    - apríl
+    - máj
+    - jún
+    - júl
+    - august
+    - september
+    - október
+    - november
+    - december
+  decidim:
+    account:
+      show:
+        available_locales_helper: Jazyk, v ktorom budete dostávať e-mailové oznámenia.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Kvóta bola prekročená
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL charty CoFE
+    events:
+      reports:
+        resource_hidden:
+          notification_title: 'Moderátor odstránil váš %{resource_type}, pretože bol nahlásený ako %{report_reasons}.</br><i>%{resource_content}</i></br>Pozri vysvetlenie:'
+    forms:
+      language:
+        language_help_text: Pomôžte nám zabezpečiť preklad vášho príspevku tak, aby si ho mohli všetci používatelia prečítať, a to výberom jazyka, v ktorom ste ho napísali.
+        language_selector: 'Jazyk vášho príspevku:'
+      meetings:
+        attendees_count_help_text: Nezabudnite uviesť celkový počet účastníkov vášho podujatia. Či už ide o podujatie s osobnou, online alebo kombinovanou účasťou, je pre nás dôležité vedieť, koľko ľudí sa na ňom zúčastňuje.
+    gamification:
+      badges:
+        accepted_proposals:
+          conditions:
+            '0': Vyberte si participatívny priestor, ktorý vás zaujíma, s povoleným predkladaním nápadov
+            '1': Pokúste sa predložiť nápady, ktoré je možné zrealizovať. Zvýši sa tak pravdepodobnosť, že budú prijaté.
+        attended_meetings:
+          conditions:
+            '0': Zaregistrujte sa na podujatia, na ktorých sa chcete zúčastniť
+        proposal_votes:
+          conditions:
+            '0': Prezrite si stránku a oboznámte sa s nápadmi iných ľudí
+            '1': Podporte nápady, ktoré sa vám páčia alebo sa vám zdajú zaujímavé
+        proposals:
+          conditions:
+            '0': Vyberte si participatívny priestor, ktorý vás zaujíma, s povoleným predkladaním nápadov
+            '1': Prezentujte nový nápad
+    meetings:
+      actions:
+        hide: Skryť
+        unhide: Zobraziť
+      admin:
+        meetings:
+          edit:
+            title: Upraviť podujatie
+          form:
+            select_a_meeting_type: Vyberte typ podujatia
+      directory:
+        meetings:
+          index:
+            subheading1: Vyjadrite sa a podeľte sa o nápady na online a osobných podujatiach, ktoré sa konajú vo vašom okolí.
+      extra:
+        filters:
+          all: Všetko
+          closed: Podujatia so správou
+          pending: Podujatia zatiaľ bez správy
+      last_activity:
+        meeting_updated_at_html: "<span>Podujatie aktualizované na %{link}</span>"
+      meeting_closes:
+        edit:
+          close: Uzavrieť podujatie
+          title: Uzavrieť podujatie
+      meetings:
+        filters:
+          activity: Moja činnosť
+          all: Všetko
+          my_meetings: Moje podujatia
+          type: Typy podujatí
+        form:
+          select_a_meeting_type: Vyberte druh stretnutia
+          select_a_registration_type: Vyberte typ registrácie
+        online_meeting_link:
+          online_event: Prejsť na webové sídlo podujatia
+        show:
+          close_meeting: Uzavrieť podujatie
+          with_meeting_report: Správa o podujatí je k dispozícii
+      models:
+        meeting:
+          fields:
+            citizen_meeting: Občianske podujatie
+            group_meeting: Podujatie skupiny
+      registration_type:
+        on_different_platform: Na inej platforme
+        registration_disabled: Registrácia je zablokovaná
+      type_of_meeting:
+        hybrid: Obidva typy
+        in_person: Prezenčné
+        online: Online
+    pages:
+      tabbed:
+        unfold: Rozbaliť
+    participatory_spaces:
+      highlighted_meetings:
+        see_all_button: Zobraziť všetko
+        see_all_count: "(pozri všetky %{count})"
+      highlighted_proposals:
+        see_all_button: Zobraziť všetko
+        see_all_count: "(pozri všetky %{count})"
+    proposals:
+      content_blocks:
+        highlighted_proposals:
+          proposals: Nápady
+      proposals:
+        edit:
+          gallery_legend: "(Nepovinné) Pridať obrázok do karty Nápad"
+        index:
+          heading: Podeľte sa s nami o svoj nápad
+          subheading1: Okrem vlastných nápadov sa s nami môžete podeliť aj o iné nápady z celej Európy. Zapojte sa do diskusie zanechaním komentára alebo hlasujte za nápady, ktoré sa Vám páčia, aby ich našlo viac ľudí
+        preview:
+          announcement_body: Teraz si ešte môžete nápad skontrolovať a prípadne upraviť. Keď je text nápadu úplný, kliknite na „Zverejniť“ a zobrazí sa na platforme.
+          announcement_title: "<b>Toto je posledný krok potrebný na zverejnenie vášho nápadu.</b>"
+    shared:
+      flag_user_modal:
+        does_not_belong: Šíri nezákonnú činnosť, hrozby samovraždou, osobné informácie alebo iné informácie, ktoré sem podľa vás nepatria.
+        offensive: Šíri rasistické alebo sexistické vyjadrenia, očierňovanie, osobné útoky, vyhrážanie zabitím, výzvy na samovraždu alebo inú formu nenávistného prejavu.
+        spam: Šíri návnady na klikanie, reklamu, podvody alebo boty vykonávajúce skripty.
+    statistics:
+      answers_count: Odpovede
+      attendees_count: účastníkov podujatia
+      comments_count: Poznámky
+      debates_count: Diskusie
+      endorsements_count: Vyjadrenia podpory
+      followers_count: Sledovatelia
+      headline: Čo sa deje v oblasti tejto témy?
+      meetings_count: Podujatia
+      no_stats: Ešte nie je k dispozícii štatistika.
+      orders_count: Hlasy
+      pages_count: Stránky
+      participants_count: Účastníci
+      processes_count: Témy
+      projects_count: Projekty
+      proposals_count: Nápady
+      results_count: Výsledky
+      supports_count: Hlasy
+      surveys_count: Prieskumy
+      users_count: Účastníci
+    verifications:
+      dummy_authorization:
+        extra_explanation:
+          postal_codes:
+            few: 'Zúčastniť sa môžu len účastníci s niektorým z týchto poštových smerovacích čísiel: %{postal_codes}.'
+  layouts:
+    decidim:
+      language_chooser:
+        close: Zatvoriť
+        eu_languages: Úradné jazyky EÚ
+        select_your_language: Vyberte jazyk
+      user:
+        logged_in: Prihlásený
+        logged_in_as: Prihlásené ako %{user}
+      wrapper:
+        unfold: Rozbaliť

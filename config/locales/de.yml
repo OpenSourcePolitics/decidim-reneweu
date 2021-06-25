@@ -1,0 +1,134 @@
+---
+de:
+  activemodel:
+    attributes:
+      close_meeting:
+        proposals: Ideen
+      constraint:
+        subject_id: Beteiligungsprozess
+      meeting:
+        cofe_charter_html: Ich stimme der <a href="%{url}" target="_blank">Charta</a> der Konferenz zur Zukunft Europas zu.
+        online_meeting_url: URL der Online-Veranstaltung
+        registration_url: Anmelde-URL
+      user:
+        language_preference: Sprachpräferenz
+        user_name: Benutzername
+  date:
+    abbr_month_names:
+    - 
+    - Jan.
+    - Feb.
+    - Mrz.
+    - Apr.
+    - Mai
+    - Jun.
+    - Jul.
+    - Aug.
+    - Sept.
+    - Okt.
+    - Nov.
+    - Dez.
+    month_names:
+    - 
+    - Januar
+    - Februar
+    - März
+    - April
+    - Mai
+    - Juni
+    - Juli
+    - August
+    - September
+    - Oktober
+    - November
+    - Dezember
+  decidim:
+    account:
+      show:
+        available_locales_helper: Die Sprache, in der Sie E-Mail-Benachrichtigungen erhalten werden.
+    comments:
+      comments:
+        create:
+          quota_exceeded: Quote überschritten
+    components:
+      meetings:
+        settings:
+          global:
+            cofe_charter_url: URL der Konferenz-Charta
+    events:
+      reports:
+        resource_hidden: Moderation
+    forms:
+      language:
+        language_help_text: Helfen Sie uns, Ihren Beitrag für alle Nutzerinnen und Nutzer übersetzen zu lassen, indem Sie die Sprache auswählen, in der Sie ihn verfasst haben.
+        language_selector: 'Sprache Ihres Beitrags:'
+    meetings:
+      admin:
+        meetings:
+          edit:
+            title: Veranstaltung bearbeiten
+          form:
+            select_a_meeting_type: Bitte wählen Sie eine Veranstaltungsart aus
+      directory:
+        meetings:
+          index:
+            subheading1: Verschaffen Sie Ihrer Meinung Gehör und teilen Sie Ihre Ideen bei Online-Veranstaltungen und in Ihrer Nähe stattfindenden Präsenzveranstaltungen.
+      extra:
+        filters:
+          all: Alle
+      meetings:
+        filters:
+          activity: Meine Aktivität
+          all: Alle
+          my_meetings: Meine Veranstaltungen
+        form:
+          select_a_meeting_type: Bitte wählen Sie die Art der Veranstaltung aus
+          select_a_registration_type: Bitte wählen Sie die Art der Anmeldung aus
+        online_meeting_link:
+          online_event: Website der Veranstaltung aufrufen
+        show:
+          close_meeting: Veranstaltung beenden
+      registration_type:
+        on_different_platform: Auf einer anderen Plattform
+        registration_disabled: Anmeldungen deaktiviert
+      type_of_meeting:
+        hybrid: Beides
+        in_person: Persönlich
+        online: Online
+    proposals:
+      proposals:
+        edit:
+          gallery_legend: "(Optional) Fügen Sie der Ideenkarte ein Bild hinzu "
+        index:
+          heading: Teilen Sie eine Idee mit uns
+          subheading1: Hier können Sie nicht nur Ihre eigenen Ideen teilen, sondern auch andere Ideen aus ganz Europa finden. Beteiligen Sie sich an der Diskussion, indem Sie einen Kommentar hinterlassen, oder stimmen Sie für Ideen, die Ihnen gefallen, damit mehr Menschen sie finden können.
+        preview:
+          announcement_body: Sie können Ihre Idee jetzt noch überprüfen und ändern. Sobald Sie Ihre Idee fertiggestellt haben, klicken Sie auf „Veröffentlichen“, und Ihre Idee erscheint auf der Plattform.
+          announcement_title: "<b>Bevor Sie Ihre Idee veröffentlichen können, müssen Sie nur noch einen Schritt abschließen.</b>"
+    statistics:
+      answers_count: Antworten
+      comments_count: Kommentare
+      debates_count: Debatten
+      endorsements_count: Unterstützungen
+      followers_count: Follower
+      headline: Statistik
+      meetings_count: Veranstaltungen
+      no_stats: Es gibt noch keine Statistiken.
+      orders_count: Unterstützungen
+      pages_count: Seiten
+      participants_count: Teilnehmer
+      processes_count: Themen
+      projects_count: Projekte
+      proposals_count: Ideen
+      results_count: Ergebnisse
+      supports_count: Unterstützungen
+      surveys_count: Umfragen
+      users_count: Teilnehmer
+  layouts:
+    decidim:
+      language_chooser:
+        close: Schließen
+        select_your_language: Wählen Sie Ihre Sprache
+      user:
+        logged_in: Angemeldet
+        logged_in_as: Angemeldet als %{user}

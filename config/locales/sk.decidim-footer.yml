@@ -1,0 +1,80 @@
+---
+sk:
+  decidim:
+    footer_links:
+      common:
+        items:
+          about_this_site: O tejto lokalite
+          cookies: Súbory cookies
+          language_policy: Jazyková politika
+          legal_notice: Právne upozornenie
+          sitemap: Mapa lokality
+      contact_the_eu:
+        items:
+          call_us: Volajte nám na číslo <a href="tel:0080067891011">00 800 6 7 8 9 10 11</a>
+          contact_form: Píšte nám prostredníctvom <a href="https://europa.eu/european-union/contact/write-to-us_sk">kontaktného formulára</a>
+          meet_us: Navštívte nás v niektorej z <a href="https://europa.eu/european-union/contact/meet-us_sk">lokálnych kancelárií EÚ</a>
+          other_telephone: Využite iné možnosti <a href="https://europa.eu/european-union/contact/call-us_sk">telefonického kontaktu</a>
+        title: Kontaktujte EÚ
+      eu_institution:
+        items:
+          agencies:
+            label: Agentúry
+            url: https://europa.eu/european-union/about-eu/agencies_sk
+          central_bank:
+            label: Európska centrálna banka (ECB)
+            url: https://www.ecb.europa.eu/home/languagepolicy/html/index.sk.html
+          commission:
+            label: Európska komisia
+            url: http://ec.europa.eu/index_sk.htm
+          council:
+            label: Európska rada
+            url: http://www.consilium.europa.eu/sk/european-council/
+          council_eu:
+            label: Rada Európskej únie
+            url: http://www.consilium.europa.eu/sk/home/
+          court_of_auditors:
+            label: Európsky dvor audítorov (ECA)
+            url: http://www.eca.europa.eu/sk
+          court_of_justice:
+            label: Súdny dvor Európskej únie
+            url: http://curia.europa.eu/jcms/jcms/j_6/sk/
+          data_protection_supervisor:
+            label: Európsky dozorný úradník pre ochranu údajov (EDPS)
+            url: https://secure.edps.europa.eu/EDPSWEB/edps/EDPS?lang=sk
+          dpb:
+            label: Európsky výbor pre ochranu údajov
+            url: https://edpb.europa.eu/edpb_sk
+          economic_social_committee:
+            label: Európsky hospodársky a sociálny výbor (EHSV)
+            url: http://www.eesc.europa.eu/?i=portal.sk.home
+          eu_regional_comittee:
+            label: Európsky výbor regiónov (VR)
+            url: http://cor.europa.eu/sk/
+          external_action_service:
+            label: Európska služba pre vonkajšiu činnosť (ESVČ)
+            url: https://eeas.europa.eu/headquarters/headquarters-homepage_en
+          investment_bank:
+            label: Európska investičná banka (EIB)
+            url: https://www.eib.org/en/index.htm
+          ombudsman:
+            label: Európsky ombudsman
+            url: https://www.ombudsman.europa.eu/sk/home
+          parliament:
+            label: Európsky parlament
+            url: http://www.europarl.europa.eu/portal/sk
+          pou:
+            label: Úrad pre vydávanie publikácií Európskej únie
+            url: https://op.europa.eu/sk/home
+          pso:
+            label: Európsky úrad pre výber pracovníkov
+            url: https://epso.europa.eu/home_sk
+        title: Inštitúcie EÚ
+      social_media:
+        items:
+          search_channels:
+            label: Hľadajte EÚ na sociálnych médiách
+            url: https://europa.eu/european-union/contact/social-networks_sk
+        title: Vyhľadať účet na sociálnych médiách
+    footer_menu:
+      organization: Konferencia o budućnosti Európy
