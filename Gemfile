@@ -41,6 +41,8 @@ gem "letter_opener_web", "~> 1.3"
 
 gem "sprockets", "~> 3.7"
 
+gem "deepl-rb", require: "deepl"
+
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
