@@ -2,6 +2,8 @@
 
 Citizen Participation and Open Government application.
 
+![Test](https://github.com/OpenSourcePolitics/decidim-reneweu/workflows/Test/badge.svg?branch=master)
+
 This is a base app for all OSP projects. It uses OSP's decidim version.
 
 ## Deploying the app
