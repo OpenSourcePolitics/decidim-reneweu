@@ -41,6 +41,8 @@ gem "letter_opener_web", "~> 1.3"
 
 gem "sprockets", "~> 3.7"
 
+gem "deepl-rb", require: "deepl"
+
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
@@ -57,15 +59,15 @@ end
 
 group :production do
   # gem "rubocop-rails"
-  gem "passenger"
-  gem "fog-aws"
   gem "dalli"
-  gem "sendgrid-ruby"
-  gem "newrelic_rpm"
+  gem "fog-aws"
   gem "lograge"
+  gem "newrelic_rpm"
+  gem "passenger"
+  gem "sendgrid-ruby"
+  gem "sentry-rails"
+  gem "sentry-ruby"
+  gem "sentry-sidekiq"
   gem "sidekiq"
   gem "sidekiq-scheduler"
-  gem "sentry-ruby"
-  gem "sentry-rails"
-  gem "sentry-sidekiq"
 end
