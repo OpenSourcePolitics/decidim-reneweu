@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: asset-data-url('Montserrat/Montserrat-Regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        font-url('Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        font-url('Montserrat/Montserrat-Regular.woff2') format('woff2'),
+        font-url('Montserrat/Montserrat-Regular.woff') format('woff'),
+        font-url('Montserrat/Montserrat-Regular.ttf') format('truetype'),
+        font-url('Montserrat/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OktaNeue Bold';
+    src: asset-data-url('OktaNeue/OktaNeue-Bold.eot');
+    src: local('Okta Neue Bold'), local('OktaNeue-Bold'),
+        font-url('OktaNeue/OktaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+        font-url('OktaNeue/OktaNeue-Bold.woff2') format('woff2'),
+        font-url('OktaNeue/OktaNeue-Bold.woff') format('woff'),
+        font-url('OktaNeue/OktaNeue-Bold.ttf') format('truetype'),
+        font-url('OktaNeue/OktaNeue-Bold.svg#OktaNeue-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OktaNeue Black';
+    src: asset-data-url('OktaNeue/OktaNeue-Black.eot');
+    src: local('Okta Neue Black'), local('OktaNeue-Black'),
+        font-url('OktaNeue/OktaNeue-Black.eot?#iefix') format('embedded-opentype'),
+        font-url('OktaNeue/OktaNeue-Black.woff2') format('woff2'),
+        font-url('OktaNeue/OktaNeue-Black.woff') format('woff'),
+        font-url('OktaNeue/OktaNeue-Black.ttf') format('truetype'),
+        font-url('OktaNeue/OktaNeue-Black.svg#OktaNeue-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
