@@ -52,7 +52,7 @@ describe "Authentication", type: :system do
           find("*[type=submit]").click
         end
 
-        expect(page).to have_content("¡Bienvenida! Te has registrado con éxito.")
+        expect(page).to have_content("¡Bienvenido/a! El registro ha finalizado con éxito.")
         expect(last_user.locale).to eq("es")
       end
     end

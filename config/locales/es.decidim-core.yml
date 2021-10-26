@@ -1529,7 +1529,7 @@ es:
       widget:
         see_more: Ver más
   locale:
-    name: español
+    name: Castellano
   password_validator:
     domain_included_in_password: es demasiado similar al nombre de este dominio
     email_included_in_password: es demasiado similar a tu correo electrónico
