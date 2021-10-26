@@ -88,10 +88,17 @@ ignore_missing:
 ignore_unused:
   - faker.*
   - activemodel.attributes.osp_authorization_handler.*
-  - decidim.authorization_handlers.osp_authorization_handler.*
-  - decidim.authorization_handlers.osp_authorization_workflow.*
-  - decidim.verifications.authorizations.first_login.actions.osp_authorization_handler
-  - decidim.verifications.authorizations.first_login.actions.osp_authorization_workflow
   - activemodel.attributes.participatory_process.private_space
   - decidim.amendments.emendation.announcement.evaluating
+  - decidim.authorization_handlers.osp_authorization_handler.*
+  - decidim.authorization_handlers.osp_authorization_workflow.*
+  - decidim.devise.registrations.new.*
+  - decidim.meetings.meeting.not_allowed
+  - decidim.meetings.meetings.create.*
+  - decidim.meetings.meetings.update.*
+  - decidim.verifications.authorizations.first_login.actions.osp_authorization_handler
+  - decidim.verifications.authorizations.first_login.actions.osp_authorization_workflow
+  - devise.failure.invited
+  - devise.registrations.new.sign_up
+
 
