@@ -91,6 +91,12 @@ Decidim.configure do |config|
     }
   end
 
+  # Machine Translation Configuration
+  #
+  # Enable machine translations
+  config.enable_machine_translations = true
+  config.machine_translation_service = "DeeplTranslator"
+
   config.base_uploads_path = ENV["HEROKU_APP_NAME"] + "/" if ENV["HEROKU_APP_NAME"].present?
 end
 

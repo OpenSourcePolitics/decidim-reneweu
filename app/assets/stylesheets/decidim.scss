@@ -16,6 +16,20 @@
 // $google: #dd4b39;
 
 @import "decidim/application";
+@import "fontface";
+
+$primary-font: 'Montserrat', Roboto, Helvetica, Arial, sans-serif;
+$heading-font: 'OktaNeue Bold', Roboto, Arial, sans-serif;
+
+h1, h2, h3, h4, h5, h6, span, .card__title {
+  font-family: $heading-font;
+  font-weight: bold;
+}
+
+body, p, a {
+  font-family: $primary-font;
+}
+
 
 // .logo-cityhall {
 //   position: static;
