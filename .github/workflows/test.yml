@@ -7,9 +7,9 @@ on:
   pull_request:
 
 env:
-  RUBY_VERSION: 2.7.3
+  RUBY_VERSION: 2.6.6
   NODE_VERSION: 12.9.1
-    
+
 jobs:
   test:
     name: RSpec
