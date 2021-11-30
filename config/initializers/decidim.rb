@@ -7,7 +7,7 @@ Decidim.configure do |config|
 
   # Change these lines to set your preferred locales
   config.default_locale = :en
-  config.available_locales = [:en, :de, :fr, :nl, :bg, :hr, :cs, :da, :et, :fi, :hu, :it, :lv, :lt, :ro, :sv, :sk, :es, :sl]
+  config.available_locales = [:en, :de, :fr, :nl, :bg, :hr, :cs, :da, :et, :fi, :hu, :it, :lv, :lt, :pl, :ro, :sv, :sk, :es, :sl]
 
   config.maximum_attachment_height_or_width = 6000
 
