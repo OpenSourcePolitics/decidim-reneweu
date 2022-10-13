@@ -12,10 +12,11 @@ Decidim.configure do |config|
   config.maximum_attachment_height_or_width = 6000
 
   # Geocoder configuration
-  if Rails.application.secrets.geocoder[:here_api_key].present?
-    config.geocoder = {
-      static_map_url: "https://image.maps.ls.hereapi.com/mia/1.6/mapview",
-      here_api_key: Rails.application.secrets.geocoder[:here_api_key]
+  if Rails.application.secrets.maps[:api_key].present?
+    config.maps = {
+      provider: :here,
+      api_key: Rails.application.secrets.maps[:api_key],
+      static: { url: "https://image.maps.ls.hereapi.com/mia/1.6/mapview" }
     }
   end
 
