@@ -98,7 +98,7 @@ Decidim.configure do |config|
   config.enable_machine_translations = true
   config.machine_translation_service = "DeeplTranslator"
 
-  config.base_uploads_path = ENV["HEROKU_APP_NAME"] + "/" if ENV["HEROKU_APP_NAME"].present?
+  config.base_uploads_path = "#{ENV["HEROKU_APP_NAME"]}/" if ENV["HEROKU_APP_NAME"].present?
 end
 
 Rails.application.config.i18n.available_locales = Decidim.available_locales

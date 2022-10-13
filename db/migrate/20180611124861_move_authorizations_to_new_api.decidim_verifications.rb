@@ -44,8 +44,8 @@ class MoveAuthorizationsToNewApi < ActiveRecord::Migration[5.1]
         next if value.nil?
 
         {
-          'authorization_handler_name' => value['authorization_handler_name']&.classify&.demodulize&.underscore,
-          'options' => value['options']
+          "authorization_handler_name" => value["authorization_handler_name"]&.classify&.demodulize&.underscore,
+          "options" => value["options"]
         }
       end
 

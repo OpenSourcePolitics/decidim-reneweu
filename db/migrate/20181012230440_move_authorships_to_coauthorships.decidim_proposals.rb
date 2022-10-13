@@ -14,14 +14,14 @@ class MoveAuthorshipsToCoauthorships < ActiveRecord::Migration[5.1]
     proposals = Proposal.all
 
     proposals.each do |proposal|
-      author_id = proposal.attributes['decidim_author_id']
-      user_group_id = proposal.attributes['decidim_user_group_id']
+      author_id = proposal.attributes["decidim_author_id"]
+      user_group_id = proposal.attributes["decidim_user_group_id"]
 
       next if author_id.nil?
 
       Coauthorship.create!(
         coauthorable_id: proposal.id,
-        coauthorable_type: 'Decidim::Proposals::Proposal',
+        coauthorable_type: "Decidim::Proposals::Proposal",
         decidim_author_id: author_id,
         decidim_user_group_id: user_group_id
       )

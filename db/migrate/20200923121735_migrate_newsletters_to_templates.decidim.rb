@@ -12,7 +12,7 @@ class MigrateNewslettersToTemplates < ActiveRecord::Migration[5.2]
   end
 
   def change
-    remove_index :decidim_content_blocks, name: 'idx_dcdm_content_blocks_uniq_org_id_scope_manifest_name'
+    remove_index :decidim_content_blocks, name: "idx_dcdm_content_blocks_uniq_org_id_scope_manifest_name"
 
     Newsletter.find_each do |newsletter|
       existing_content_block = ContentBlock

@@ -12,6 +12,6 @@ class CreateDecidimAuthorizations < ActiveRecord::Migration[5.0]
       t.timestamps
     end
 
-    add_index :decidim_authorizations, %i[decidim_user_id name], unique: true
+    add_index :decidim_authorizations, [:decidim_user_id, :name], unique: true
   end
 end

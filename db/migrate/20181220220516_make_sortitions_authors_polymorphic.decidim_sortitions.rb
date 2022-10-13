@@ -18,8 +18,8 @@ class MakeSortitionsAuthorsPolymorphic < ActiveRecord::Migration[5.2]
     end
 
     add_index :decidim_sortitions_sortitions,
-              %i[decidim_author_id decidim_author_type],
-              name: 'index_decidim_sortitions_sortitions_on_decidim_author'
+              [:decidim_author_id, :decidim_author_type],
+              name: "index_decidim_sortitions_sortitions_on_decidim_author"
     change_column_null :decidim_sortitions_sortitions, :decidim_author_id, false
     change_column_null :decidim_sortitions_sortitions, :decidim_author_type, false
   end

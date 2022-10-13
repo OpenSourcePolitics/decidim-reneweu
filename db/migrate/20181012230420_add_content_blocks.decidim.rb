@@ -16,9 +16,9 @@ class AddContentBlocks < ActiveRecord::Migration[5.2]
 
     add_index(
       :decidim_content_blocks,
-      %i[decidim_organization_id scope manifest_name],
+      [:decidim_organization_id, :scope, :manifest_name],
       unique: true,
-      name: 'idx_dcdm_content_blocks_uniq_org_id_scope_manifest_name'
+      name: "idx_dcdm_content_blocks_uniq_org_id_scope_manifest_name"
     )
   end
 end

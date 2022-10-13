@@ -7,9 +7,9 @@ class AddActiveFlagToStep < ActiveRecord::Migration[5.0]
     add_column :decidim_participatory_process_steps, :active, :boolean, default: false
 
     add_index :decidim_participatory_process_steps,
-              %i[decidim_participatory_process_id active],
+              [:decidim_participatory_process_id, :active],
               unique: true,
               where: "active = 't'",
-              name: 'unique_index_to_avoid_duplicate_active_steps'
+              name: "unique_index_to_avoid_duplicate_active_steps"
   end
 end
