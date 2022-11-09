@@ -8,7 +8,7 @@ class CreateDecidimFormsQuestionnaires < ActiveRecord::Migration[5.0]
       t.jsonb :title
       t.jsonb :description
       t.jsonb :tos
-      t.references :questionnaire_for, polymorphic: true, index: { name: 'index_decidim_forms_questionnaires_questionnaire_for' }
+      t.references :questionnaire_for, polymorphic: true, index: { name: "index_decidim_forms_questionnaires_questionnaire_for" }
       t.datetime :published_at
 
       t.timestamps

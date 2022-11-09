@@ -57,6 +57,15 @@ en:
         update:
           invalid: Il y a eu une erreur lors de la mise à jour de la rencontre.
           success: La rencontre a été mise à jour avec succès.
+    proposals:
+      proposals:
+        show:
+          answer: Answer
+          back_to: Back to
+          back_to_list: Back to list
+          changes_at_title: Changes at title
+          comments: Comments
+          edit_proposal: Edit proposal
     verifications:
       authorizations:
         first_login:
@@ -73,7 +82,7 @@ en:
     decidim:
       footer:
         download_open_data: Open data
-        made_with_open_source: Made with open source
+        made_with_open_source: Website made by <a target="_blank" href="https://opensourcepolitics.eu/en/">Open Source Politics</a> with the <a target="_blank" href="https://github.com/decidim/decidim">decidim free software</a>.
         revoke_cookies: Revoke cookies
       header:
         close_menu: Close menu

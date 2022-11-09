@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: asset-data-url('fonts/Montserrat/Montserrat-Regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        font-url('fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        font-url('fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+        font-url('fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+        font-url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+        font-url('fonts/Montserrat/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OktaNeue Bold';
+    src: asset-data-url('fonts/OktaNeue/OktaNeue-Bold.eot');
+    src: local('Okta Neue Bold'), local('OktaNeue-Bold'),
+        font-url('fonts/OktaNeue/OktaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+        font-url('fonts/OktaNeue/OktaNeue-Bold.woff2') format('woff2'),
+        font-url('fonts/OktaNeue/OktaNeue-Bold.woff') format('woff'),
+        font-url('fonts/OktaNeue/OktaNeue-Bold.ttf') format('truetype'),
+        font-url('fonts/OktaNeue/OktaNeue-Bold.svg#OktaNeue-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OktaNeue Black';
+    src: asset-data-url('fonts/OktaNeue/OktaNeue-Black.eot');
+    src: local('Okta Neue Black'), local('OktaNeue-Black'),
+        font-url('fonts/OktaNeue/OktaNeue-Black.eot?#iefix') format('embedded-opentype'),
+        font-url('fonts/OktaNeue/OktaNeue-Black.woff2') format('woff2'),
+        font-url('fonts/OktaNeue/OktaNeue-Black.woff') format('woff'),
+        font-url('fonts/OktaNeue/OktaNeue-Black.ttf') format('truetype'),
+        font-url('fonts/OktaNeue/OktaNeue-Black.svg#OktaNeue-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

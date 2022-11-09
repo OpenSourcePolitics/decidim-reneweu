@@ -12,8 +12,8 @@ class AddAssemblyUserRoles < ActiveRecord::Migration[5.1]
     end
 
     add_index :decidim_assembly_user_roles,
-              %i[decidim_assembly_id decidim_user_id role],
+              [:decidim_assembly_id, :decidim_user_id, :role],
               unique: true,
-              name: 'index_unique_user_and_assembly_role'
+              name: "index_unique_user_and_assembly_role"
   end
 end

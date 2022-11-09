@@ -4,7 +4,7 @@
 
 class MakeFeaturesPolymorphic < ActiveRecord::Migration[5.1]
   def change
-    remove_index :decidim_components, name: 'index_decidim_components_on_decidim_participatory_process_id'
+    remove_index :decidim_components, name: "index_decidim_components_on_decidim_participatory_process_id"
 
     add_column :decidim_components, :participatory_space_type, :string
 
@@ -20,8 +20,8 @@ class MakeFeaturesPolymorphic < ActiveRecord::Migration[5.1]
     rename_column :decidim_components, :decidim_participatory_process_id, :participatory_space_id
 
     add_index :decidim_components,
-              %i[participatory_space_id participatory_space_type],
-              name: 'index_decidim_components_on_decidim_participatory_space'
+              [:participatory_space_id, :participatory_space_type],
+              name: "index_decidim_components_on_decidim_participatory_space"
 
     change_column_null :decidim_components, :participatory_space_id, false
     change_column_null :decidim_components, :participatory_space_type, false

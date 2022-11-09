@@ -57,6 +57,15 @@ fr:
         update:
           invalid: Il y a eu une erreur lors de la mise à jour de la rencontre.
           success: La rencontre a été mise à jour avec succès.
+    proposals:
+      proposals:
+        show:
+          answer: Réponse
+          back_to: Retour
+          back_to_list: Retoour à la liste
+          changes_at_title: Modifications apportées au titre
+          comments: Commentaires
+          edit_proposal: Editer la proposition
     verifications:
       authorizations:
         first_login:

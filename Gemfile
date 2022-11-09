@@ -2,9 +2,9 @@
 
 source "https://rubygems.org"
 
-ruby RUBY_VERSION
+DECIDIM_VERSION = "release/0.26-stable"
 
-DECIDIM_VERSION = "release/0.23-stable"
+ruby RUBY_VERSION
 
 gem "decidim", git: "https://github.com/decidim/decidim.git", branch: DECIDIM_VERSION
 # gem "decidim", path: "../decidim"
@@ -13,10 +13,8 @@ gem "decidim", git: "https://github.com/decidim/decidim.git", branch: DECIDIM_VE
 # gem "decidim-consultations", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
 # gem "decidim-initiatives", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
 
-gem "decidim-cookies", git: "https://github.com/OpenSourcePolitics/decidim-module_cookies.git", branch: "release/0.23-stable"
-gem "decidim-decidim_awesome", "~> 0.6.0"
-gem "decidim-navbar_links", git: "https://github.com/OpenSourcePolitics/decidim-module-navbar_links.git", branch: "0.23.5"
-gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer.git", branch: "0.23-stable"
+gem "decidim-decidim_awesome", "0.8.3"
+gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer.git", branch: "release/0.26-stable"
 
 # gem "decidim-calendar", git: "https://github.com/alabs/decidim-module-calendar"
 # gem "decidim-combined_budgeting", git: "https://github.com/mainio/decidim-module-combined_budgeting"
@@ -26,40 +24,42 @@ gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-te
 # gem "decidim-initiatives_no_signature_allowed", git: "https://github.com/OpenSourcePolitics/decidim-module-initiatives_nosignature_allowed.git"
 # gem "decidim-navigation_maps", git: "https://github.com/Platoniq/decidim-module-navigation_maps"
 
-gem "bootsnap", "~> 1.3"
-
 gem "dotenv-rails"
 
-gem "puma", "~> 4.3"
-gem "uglifier", "~> 4.1"
-
-gem "faker", "~> 1.8"
-
-gem "ruby-progressbar"
-
-gem "letter_opener_web", "~> 1.3"
+gem "bootsnap", "~> 1.4"
+gem "foundation_rails_helper", git: "https://github.com/sgruhier/foundation_rails_helper.git"
 
 gem "deepl-rb", require: "deepl"
-gem "sprockets", "~> 3.7"
+
+gem "puma", ">= 5.5.1"
+
+gem "faker", "~> 2.14"
+
+gem "activejob-uniqueness", require: "active_job/uniqueness/sidekiq_patch"
+gem "fog-aws"
+gem "sys-filesystem"
+
+gem "omniauth-rails_csrf_protection", "~> 1.0"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
+  gem "brakeman", "~> 5.1"
   gem "decidim-dev", git: "https://github.com/decidim/decidim.git", branch: DECIDIM_VERSION
   # gem "decidim-dev", path: "../decidim"
 end
 
 group :development do
+  gem "letter_opener_web", "~> 1.3"
   gem "listen", "~> 3.1"
-  gem "spring", "~> 2.0"
+  gem "rubocop-faker"
+  gem "spring", "~> 4.0"
   gem "spring-watcher-listen", "~> 2.0"
-  gem "web-console", "~> 3.5"
+  gem "web-console", "4.0.4"
 end
 
 group :production do
-  # gem "rubocop-rails"
   gem "dalli"
-  gem "fog-aws"
   gem "lograge"
   gem "newrelic_rpm"
   gem "passenger"

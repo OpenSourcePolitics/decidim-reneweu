@@ -16,11 +16,11 @@ class MoveMeetingServicesToOwnModel < ActiveRecord::Migration[5.2]
     Service.reset_column_information
 
     Meeting.find_each do |meeting|
-      meeting['services'].each do |service|
+      meeting["services"].each do |service|
         Service.create!(
           decidim_meeting_id: meeting.id,
-          title: service['title'],
-          description: service['description']
+          title: service["title"],
+          description: service["description"]
         )
       end
     end

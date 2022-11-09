@@ -5,7 +5,7 @@
 class MakeModerationsPolymorphic < ActiveRecord::Migration[5.1]
   def change
     remove_index :decidim_moderations,
-                 name: 'decidim_moderations_participatory_process'
+                 name: "decidim_moderations_participatory_process"
 
     add_column :decidim_moderations, :decidim_participatory_space_type, :string
 
@@ -23,8 +23,8 @@ class MakeModerationsPolymorphic < ActiveRecord::Migration[5.1]
                   :decidim_participatory_space_id
 
     add_index :decidim_moderations,
-              %i[decidim_participatory_space_id decidim_participatory_space_type],
-              name: 'decidim_moderations_participatory_space'
+              [:decidim_participatory_space_id, :decidim_participatory_space_type],
+              name: "decidim_moderations_participatory_space"
 
     change_column_null :decidim_moderations, :decidim_participatory_space_type, false
   end

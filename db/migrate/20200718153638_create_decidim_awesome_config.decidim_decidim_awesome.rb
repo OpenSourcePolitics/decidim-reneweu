@@ -9,10 +9,10 @@ class CreateDecidimAwesomeConfig < ActiveRecord::Migration[5.2]
       t.jsonb :value
       t.integer :decidim_organization_id,
                 foreign_key: true,
-                index: { name: 'index_decidim_awesome_on_decidim_organization_id' }
+                index: { name: "index_decidim_awesome_on_decidim_organization_id" }
 
       t.timestamps
-      t.index %i[var decidim_organization_id], name: 'index_decidim_awesome_organization_var', unique: true
+      t.index [:var, :decidim_organization_id], name: "index_decidim_awesome_organization_var", unique: true
     end
   end
 end

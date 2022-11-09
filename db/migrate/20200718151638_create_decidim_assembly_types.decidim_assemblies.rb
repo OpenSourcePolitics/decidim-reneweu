@@ -10,7 +10,7 @@ class CreateDecidimAssemblyTypes < ActiveRecord::Migration[5.2]
       t.integer :decidim_organization_id,
                 foreign_key: true,
                 index: {
-                  name: 'index_decidim_assemblies_types_on_decidim_organization_id'
+                  name: "index_decidim_assemblies_types_on_decidim_organization_id"
                 }
 
       t.timestamps

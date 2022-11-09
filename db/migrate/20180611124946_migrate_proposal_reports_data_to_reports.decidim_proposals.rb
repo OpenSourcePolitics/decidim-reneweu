@@ -4,8 +4,8 @@
 
 class MigrateProposalReportsDataToReports < ActiveRecord::Migration[5.0]
   class Decidim::Proposals::ProposalReport < ApplicationRecord
-    belongs_to :user, foreign_key: 'decidim_user_id', class_name: 'Decidim::User'
-    belongs_to :proposal, foreign_key: 'decidim_proposal_id', class_name: 'Decidim::Proposals::Proposal'
+    belongs_to :user, foreign_key: "decidim_user_id", class_name: "Decidim::User"
+    belongs_to :proposal, foreign_key: "decidim_proposal_id", class_name: "Decidim::Proposals::Proposal"
   end
 
   def change
