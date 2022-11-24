@@ -40,7 +40,7 @@ end
 module W3cRspecValidators
   class Config
     def self.get
-      @config ||= {
+      @get ||= {
         w3c_service_uri: ENV.fetch("VALIDATOR_HTML_URI", "https://validator.w3.org/nu/")
       }.stringify_keys
     end
